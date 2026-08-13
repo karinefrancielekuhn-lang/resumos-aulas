@@ -174,20 +174,30 @@ consolidada** (ou qualquer parte do arquivo):
 
 Nunca edite, resuma, mova o conteúdo ou apague essa seção. Se não existir, não crie.
 
-## Commit ao final
+## Commit e push ao final
 
-Depois de gravar tudo, faça **um** commit com as mudanças dos resumos:
+Depois de gravar tudo, faça **um** commit com as mudanças dos resumos e, em
+seguida, **push**:
 
 ```bash
 git add resumo/
 git commit -m "resumo: <mensagem>"
+git push
 ```
 
 A `<mensagem>` deve descrever **qual aula entrou em quais temas**, por exemplo:
-`resumo: aula 01 (Bifi, Amanda) → copy, criativos`. Se nenhuma aula nova foi
-processada (tudo já estava no `_indice.md`), **não** faça commit — apenas informe
-que não havia nada novo. Se o `git` não estiver inicializado ou não houver
-mudanças a commitar, avise e siga sem falhar.
+`resumo: aula 01 (Bifi, Amanda) → copy, criativos`.
+
+Regras de robustez (nunca trave o fluxo por causa do git):
+- Se nenhuma aula nova foi processada (tudo já estava no `_indice.md`), **não**
+  commite nem faça push — apenas informe que não havia nada novo.
+- Se o `git` não estiver inicializado ou não houver mudanças a commitar, avise e
+  siga sem falhar.
+- **O push é o último passo e é "best effort":** se ele falhar (sem remote
+  configurado, sem internet, autenticação pendente), **avise o usuário mas NÃO
+  trave** — o commit local já está feito e nada se perde. Diga que basta rodar
+  `git push` depois para sincronizar. Nunca desfaça o commit por causa de um push
+  que falhou.
 
 ## resumo/_indice.md (controle)
 
