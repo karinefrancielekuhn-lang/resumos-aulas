@@ -1,0 +1,10 @@
+.env
+.venv/
+.trabalho/
+audio/*
+
+# ruído do sistema / ferramentas
+.DS_Store
+.obsidian/workspace.json
+.obsidian/workspace*.json
+.claude/settings.local.json
