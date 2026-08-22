@@ -11,6 +11,84 @@
 > próprio, sem lojinha nativa tipo TikTok Shop).
 > Timestamps no formato `[aulaNN · HH:MM:SS]`. Marcação: (fato)/(opinião)/(testado).
 
+## Índice
+- [Resumo Prático — O que fazer do zero](#resumo-prático--o-que-fazer-do-zero)
+- [Síntese Consolidada](#síntese-consolidada)
+  - [Ouro consolidado — o mapa acionável](#ouro-consolidado--o-mapa-acionável-do-zero-com-um-celular-na-mão)
+  - [1. Consenso](#1-consenso-o-que-se-repete-e-se-confirma-entre-aulas)
+  - [2. Evoluiu](#2-evoluiu)
+  - [3. Perecível](#3-perecível-depende-de-plataformaferramenta-atual--reconferir-medido-em-2026-08-22)
+  - [4. Estável](#4-estável-princípios-que-não-expiram)
+  - [5. Divergência entre professores](#5-divergência-entre-professores-registrar-como-divergência-não-erro)
+  - [6. Lacunas](#6-lacunas-prometido-para-aula-futura--ficou-pela-metade)
+- [Registro por aula](#aula-01-2026-08-22--visão-geral-do-funil-orgânico-e-traqueamento--gustavo-roque)
+  - [Fonte externa — GUIA_OPERACIONAL_VENDAS_ORGANICAS](#fonte-externa--guia_operacional_vendas_organicas--ago2026)
+
+## Resumo Prático — O que fazer do zero
+
+> 100% orgânico (sem tráfego pago), mercado dos **EUA**, modelo **non-shop** (perfil
+> comum + funil externo próprio, sem lojinha nativa). Faça na ordem; **só avance quando
+> o critério da etapa estiver cumprido — "ter criado a conta" não basta.**
+
+**1. Funil e link (antes de tudo).** Pegue o link da oferta no **H&W Hub** com a tag
+**Organic** ativada; confira que o parâmetro orgânico aparece no fim da URL, **teste
+abrindo**, e só então encurte com **domínio próprio + SSL** (encurtador grátis derruba a
+passagem de ~70% para 20–30%). **Nunca edite o link de afiliado na mão.** Defina **1
+destino por conteúdo**: público frio → advertorial/listicle; já conhece a solução →
+landing com desconto; fundo de funil → checkout direto. A dor do vídeo tem de **bater**
+com a da página.
+
+**2. Infra comercial.** **1 perfil do Chrome por conta.** E-mail: compre pronto (GGMax)
+ou crie do zero, aquecendo navegando **antes**. Só troque a senha do e-mail após **~7
+dias**. **Planilha de controle desde o dia 1** (@, senha, recuperação, plataforma,
+dispositivo, responsável, status).
+
+**3. Dispositivo + rede.** Nunca o **celular pessoal**. **Instagram = só celular físico**
+(em virtual o ban é altíssimo). TikTok/Facebook: físico ou virtual (VMOS/DuoPlus/Geelark).
+Hard reset → aquecimento básico. **1 IP por dispositivo, nunca misturar**; proxy **ISP
+residencial estático/dedicado, EUA, SOCKS5** — **prefira proxy a VPN** (não use os dois
+juntos). **Fraud score ≤12 ok, até 25–30 aceitável, >30 troca.** Configurou, **não mexe
+mais**. (IG: 1 conta/dispositivo; TikTok tolera até ~4 contas/dispositivo, mas
+**sempre 1 proxy por dispositivo**.)
+
+**4. Criar contas.** Sempre com **e-mail** (não número); no IG não preencha foto/bio/link
+na criação. **Alusão explícita aos EUA em tudo** (bandeira, lojas, inglês 100%) — a visão
+computacional afunila a entrega. Aqueça **IG por 5 dias** (≥30 min/dia nos dias 1–3; 1º
+post no dia 4; 5–10 vídeos de engajamento do dia 5 em diante); **TikTok aquecimento
+rápido** (posta da câmera, espera 24h, depois de 4 em 4h até pegar **≥200 views**).
+Bloqueio geográfico + **idade mín. 25**. **Alcance saudável: IG ≥60% EUA, TikTok ≥76%.**
+Travou na criação / pediu documento → **descarta e refaz**; Face ID → **seu próprio
+rosto**.
+
+**5. Conteúdo.** **Modele o validado, nunca invente do zero:** benchmark (Kalodata + suas
+próprias contas aquecidas) → extraia a **estrutura invisível** (a psicologia) e troque só
+a **camada visível**. **Hook é 80/20** (retém), **body vende**. Avatar = **4 boards +
+voz** (ElevenLabs), sempre **anexando os boards** (nunca gerar de memória da IA).
+Produção: **skill do Claude → storyboard → frames (GPT) → vídeo (Veo 3, takes ≤8s) →
+CapCut → voz final (ElevenLabs)**.
+
+**6. Publicar e converter.** **2 CTAs por vídeo:** keyword (aciona DM) + engajamento,
+sempre com **reason why** ("me siga antes, senão a plataforma bloqueia minha DM"). **DM:**
+1ª mensagem = **pergunta na dor, sem link**; 2ª = congruência + **link**; follow-up
+**15–20 min**. **DM 100% manual nos primeiros 7–10 dias**; só depois automatize
+(**ManyChat**/mini chat, 2 mensagens). Link na bio **só com ≥1.000 seguidores**; antes,
+CTA para a DM. **Replique o mesmo conteúdo entre plataformas mudando só o CTA** (na
+experiência relatada, **FB + IG concentram mais vendas** que o TikTok — mas meça antes de
+decidir onde apostar). Não existe "X views = Y vendas" — a métrica só serve para
+**decidir o que replicar**. **Só
+escale** (mais contas/volume) **depois do fluxo completo rodando e medido num piloto.**
+
+**Onde os professores divergem (decida você mesmo):**
+- **Black/deepfake/famoso no orgânico:** **Gustavo NÃO recomenda** (perfil é ativo de
+  longo prazo; denúncia queima o perfil; prefere previsibilidade). **Bifi** acha válido
+  **para quem tem contingência de perfil** ("queima pra vender rápido"). Ambos: **copy
+  agressiva ≠ black**.
+- **Pago × orgânico:** **nunca** use pago para "turbinar" o perfil orgânico (suja a
+  entrega). Com pouco caixa (≤R$5.000) o orgânico é o caminho; o pago é **operação
+  separada**, replicando o que o orgânico já validou.
+
+## Síntese Consolidada
+
 ## Ouro consolidado — o mapa acionável (do zero, com um celular na mão)
 
 ### Sequência macro da operação (ordem de execução)
@@ -467,3 +545,70 @@ Fonte: transcricao/2026-08-22-organico-gustavoroque-11.txt
 - [?] [aula11 · 00:34:33] "1.3 mil" numa loja — provável 1,3 milhão (US$), dito rápido.
 - [?] [aula11 · 00:23:39] Gustavo é chamado de "Rock"/"Gu"/"Roque" e o TikTok Asia de "Douwin" (Douyin) — grafias faladas.
 - [?] [aula11 · 00:00:00–00:07:30] Trecho inicial só com ruído/prompt repetido ("Aula de marketing digital de resposta direta") — sem conteúdo.
+
+## Fonte externa — GUIA_OPERACIONAL_VENDAS_ORGANICAS · ago/2026
+Fonte: docs/GUIA_OPERACIONAL_VENDAS_ORGANICAS.pdf
+Autoria: **colega da comunidade** (não é o professor). Data do documento: **"Versão
+operacional • Agosto de 2026"** (a FAQ analisa o canal #orgânico de **04–20/08/2026**,
+1.275 mensagens). Fonte citada abaixo como **"colega / GUIA_OPERACIONAL"**.
+
+> **Natureza do documento:** é uma **consolidação das próprias aulas 01–10** (o mesmo
+> material que este `organico.md` já sintetiza) em formato de manual operacional com
+> critérios "Pronto quando" + uma **FAQ do Discord**. Por isso **a maior parte
+> corrobora** o que já está na síntese e **não gera integração nova**. O valor novo está
+> na **camada FAQ/comunidade**. O filtro abaixo separa o que entrou, o que foi
+> descartado e o que gerou divergência.
+
+### Absorvido (consistente com as aulas — integrado à síntese)
+- **Gating por critério, não por evento** ("avance quando o 'Pronto quando' estiver
+  cumprido, não porque a conta foi criada"). Princípio de processo → reforça o Resumo
+  Prático e a seção **Estável**. [colega / GUIA_OPERACIONAL, p.2]
+- **Regra de escala:** só multiplicar contas/dispositivos/volume **depois** que o fluxo
+  completo rodar e for medido num **piloto**. → **Estável** e Resumo Prático §6. Consistente
+  com "não escalar cedo" das aulas. [colega / GUIA_OPERACIONAL, p.10]
+- **ManyChat** é a ferramenta nomeada para a automação de DM (as aulas diziam só "mini
+  chat"/"automação"). → nome absorvido no Resumo Prático §6 e Perecível. Consistente com
+  "automação só após maturação". [colega / GUIA_OPERACIONAL, FAQ 11]
+- **Proxy vs VPN: escolher só um, preferência ao proxy** (as aulas tratavam como
+  alternativas; o guia explicita "não use os dois, prefira proxy"). → Resumo Prático §3.
+  Consistente. [colega / GUIA_OPERACIONAL, FAQ 2]
+- **SMS/verificação:** número virtual **temporário dos EUA** basta; não compensa manter
+  número permanente. → afina a aula 02. Consistente. [colega / GUIA_OPERACIONAL, FAQ 5]
+- **Perfil genérico** quando a estratégia é testar várias ofertas (mantendo tema de nicho
+  coerente e foco na oferta do momento). → consistente com "escolher produto mas não
+  travar" (aula 11). [colega / GUIA_OPERACIONAL, FAQ 15]
+- **Bio × DM:** priorizar a **DM** para o advertorial/destino principal e deixar na bio uma
+  página mais neutra (listicle) com a mesma dor/promessa. → afina a aula 01. Consistente.
+  [colega / GUIA_OPERACIONAL, FAQ 16]
+
+### Perecível / específico do contexto do colega (registrado com ressalva, NÃO virou regra)
+- **TikTok: até ~4 contas por dispositivo** (Instagram continua 1 conta/dispositivo).
+  Número **operacional do instrutor no canal** (18/08/2026), depende da tolerância atual
+  da plataforma — tratar como perecível, **1 proxy por dispositivo continua valendo**.
+  [colega / GUIA_OPERACIONAL, FAQ 4]
+- **Prioridade de rede:** na experiência relatada, **Facebook + Instagram concentraram a
+  maior parte das vendas** e o TikTok vendeu menos. É **experiência de uma operação**, não
+  lei — produzir ativo central, adaptar CTA/formato por plataforma e **medir antes de
+  decidir onde investir**. [colega / GUIA_OPERACIONAL, FAQ 17]
+- **Troubleshooting de SMS** (campo já com +1 → digitar só o resto; código no painel do
+  fornecedor; se o IG limitar tentativas, aguardar ~24h): explicitamente **da comunidade**,
+  dependente de interface/fornecedor. Ressalva do próprio guia: "prazos relatados por
+  usuários são experiências individuais, não garantia". [comunidade via GUIA_OPERACIONAL, FAQ 6]
+
+### Divergência (registrar como divergência, não erro)
+- **Automação de DM cedo:** este `organico.md` (aula 11, Gustavo/Bifi) é enfático — **DM
+  100% manual nos primeiros 7–10 dias**, automação só depois. O guia (FAQ 11) admite
+  **"operação manual OU automação nativa"** já no início, deixando o **ManyChat** para
+  quando a conta amadurecer. Convergem no ManyChat tardio; **divergem** em liberar
+  automação nativa nos primeiros dias. **Mantida a orientação da aula** (manual primeiro)
+  como padrão; a variante do guia fica registrada aqui. [aula11 · 00:58:36 × colega /
+  GUIA_OPERACIONAL, FAQ 11 — 20/08/2026]
+
+### Descartado (sem base verificável / não entra no resumo)
+- **Horários "aprox." de cada aula** ("AULA 0X | 00:00–10:30") do guia: são estimativas
+  do colega sobre **as gravações**, com timestamps que **não batem** com os deste arquivo
+  (medidos direto na transcrição). Não integrados — usar sempre os timestamps do registro
+  por aula acima.
+- Afirmações da **FAQ atribuídas só à "comunidade"** sem respaldo em aula nem no instrutor
+  ficam **fora da síntese** (entram, no máximo, como Perecível com a etiqueta "comunidade",
+  como no item de SMS) — o próprio guia pede para tratá-las como experiência, não regra.

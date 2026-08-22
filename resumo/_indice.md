@@ -6,7 +6,8 @@ Não reprocessar um par que já esteja aqui.
 | Aula (transcrição) | Data da aula | Tema | Professores | Último processamento |
 |---|---|---|---|---|
 | sem-data-copy+criativos-bifi+amanda-01 | indefinida (ordem 01) | copy | Bifi, Amanda | 2026-08-13 |
-| sem-data-copy+criativos-bifi+amanda-01 | indefinida (ordem 01) | criativos | Bifi, Amanda | 2026-08-13 |
+| sem-data-copy+criativos-bifi+amanda-01 | indefinida (ordem 01) | criativos → **criativos-pago** + **criativos-organico** | Bifi, Amanda | 2026-08-22 (split) |
+| GUIA_OPERACIONAL_VENDAS_ORGANICAS (PDF, colega) | doc ago/2026 | organico (fonte externa) | — (colega da comunidade) | 2026-08-22 |
 | 2026-08-22-organico-gustavoroque-01 | 2026-08-22 (aprox.; ordem 01) | organico | Gustavo Roque | 2026-08-22 |
 | 2026-08-22-organico-gustavoroque-02 | 2026-08-22 (aprox.; ordem 02) | organico | Gustavo Roque | 2026-08-22 |
 | 2026-08-22-organico-gustavoroque-03 | 2026-08-22 (aprox.; ordem 03) | organico | Gustavo Roque | 2026-08-22 |
@@ -18,6 +19,26 @@ Não reprocessar um par que já esteja aqui.
 | 2026-08-22-organico-gustavoroque-09 | 2026-08-22 (aprox.; ordem 09) | organico | Gustavo Roque | 2026-08-22 |
 | 2026-08-22-organico-gustavoroque-10 | 2026-08-22 (aprox.; ordem 10) | organico | Gustavo Roque | 2026-08-22 |
 | 2026-08-22-organico-gustavoroque-11 | 2026-08-22 (aprox.; ordem 11) | organico | Gustavo Roque, Bifi | 2026-08-22 |
+
+## Notas — tema criativos (split 2026-08-22)
+- **`criativos.md` foi separado em dois arquivos** porque criativo pago e criativo orgânico
+  são disciplinas diferentes: **`criativos-pago.md`** (Facebook/Google Ads — escala, contas/BM,
+  imagem×vídeo de anúncio, nome chiclete) e **`criativos-organico.md`** (princípios de criativo
+  transversais ao orgânico). Ambos derivam da **aula 01 (Amanda + Bifi)**, que é uma aula de
+  contexto **pago**; os itens que servem aos dois estão nos dois, marcados **[transversal]**.
+  O `criativos.md` original foi removido.
+- O criativo orgânico **operacional** (avatar com IA, estrutura invisível, produção de vídeo)
+  vive no `organico.md` (aulas 08–10); `criativos-organico.md` guarda só a camada de princípio.
+
+## Notas — fonte externa integrada ao organico.md (2026-08-22)
+- O **PDF `GUIA_OPERACIONAL_VENDAS_ORGANICAS`** (autoria de **colega da comunidade**, "Versão
+  operacional • Agosto de 2026") foi movido para **`docs/`** e integrado ao `organico.md` na
+  seção **"Fonte externa — GUIA_OPERACIONAL_VENDAS_ORGANICAS · ago/2026"**, com o filtro
+  aplicado item a item (absorvido / perecível / divergência / descartado). É, na maior parte,
+  uma **consolidação das aulas 01–10** — só a camada de **FAQ do Discord** trouxe material novo.
+- O **topo do `organico.md` foi reestruturado**: `## Índice` (âncoras) → `## Resumo Prático — O
+  que fazer do zero` (≤1 página, ação direta) → `## Síntese Consolidada` (conteúdo inalterado,
+  só reposicionado). Registro por aula permanece intocado/append-only.
 
 ## Notas
 - **Data indefinida:** o arquivo de áudio foi copiado (data do sistema = hoje), então
