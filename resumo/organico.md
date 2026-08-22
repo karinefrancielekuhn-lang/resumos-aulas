@@ -1,5 +1,7 @@
 # Orgânico
 
+> Para configuração do zero: ver [GUIA-CELULAR-ZERO](../docs/GUIA-CELULAR-ZERO.md)
+
 <!-- ===== SÍNTESE CONSOLIDADA (reescrita por inteiro a cada aula nova) ===== -->
 
 > Base atual: **11 aulas** (aulas 01–10 gravadas + aula 11 ao vivo), todas de
