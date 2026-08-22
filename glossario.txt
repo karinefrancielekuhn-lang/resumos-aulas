@@ -43,6 +43,19 @@ afiliado produtor afiliacao lancamento => produtor, afiliado, comissão, platafo
 # --- Anglicismos e termos falados em inglês no meio do português (fáceis de errar) ---
 * => marketing, tráfego pago, engajamento, conversão, awareness, lead, funnel, pipeline, dashboard, insight, briefing, deadline, spend, budget
 
+# --- Tráfego orgânico: plataformas, algoritmo e crescimento (tema do Gustavo Roque) ---
+organico instagram tiktok facebook reels => tráfego orgânico, orgânico, reels, feed, stories, bio, perfil, algoritmo, engajamento, alcance orgânico, alcance, crescimento orgânico, CTA orgânico, viral, viralizar, hashtag, nicho, conteúdo, postagem, frequência de postagem
+
+# --- Tráfego orgânico: conta, dispositivo e contingência (alto risco de erro) ---
+organico instagram tiktok facebook => aquecimento de conta, aquecimento, proxy, dispositivo físico, dispositivo virtual, emulador, chip, número virtual, IP, contingência, isolamento, red flag, yellow flag, banimento, instaban, shadowban, fanpage, página de Facebook, perfil forte, credibilidade
+
+# --- Tráfego orgânico: produção de conteúdo, avatar e IA ---
+organico criativo avatar => avatar, ativo criativo, modelagem, modelagem de conteúdo, storyboard, benchmark, cenário, roteiro, prompt, frame
+
+# --- Tráfego orgânico: ferramentas e fornecedores citados (nomes próprios, fáceis de errar) ---
+organico ferramentas => Callowdata, VMOS, Duoplus, Redfinger, Cloud Emulador, Glark, ElevenLabs, Macy's, Gmail, Outlook, Google Chrome, skill, cloud
+
 [PROFESSORES]
 Bifi
 Amanda
+Gustavo Roque
