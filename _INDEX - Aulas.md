@@ -81,7 +81,9 @@ mental amanda, pesquisa VSL/dados/erros/mercado/organico/publico, proof elements
 
 ## 4-8 (placeholders)
 
-Sem conteúdo ainda.
+`4 - Fundo de Funil`, `5 - Info App`, `6 - Organico TikTok`, `7 - Tabula`,
+`8 - Ecom Branding Equity` — sem aulas ainda, cada uma só com um `README.md`
+reservando o nome (pastas vazias não são versionadas pelo git).
 
 ## Guias
 
