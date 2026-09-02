@@ -17,6 +17,7 @@ _Projeto-Antigo/
 
 # ruído do sistema / ferramentas
 .DS_Store
+Icon?
 .obsidian/workspace.json
 .obsidian/workspace*.json
 .claude/settings.local.json
