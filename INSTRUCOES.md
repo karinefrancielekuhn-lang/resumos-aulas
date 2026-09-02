@@ -108,7 +108,9 @@ quando fizer sentido (guias de estudo, checklists, comparativos).
 - **Mac:** fonte da estrutura de resumos — roda `processar.py` + `/resumir`,
   edita `resumo/` e `transcricao/`, e dá push.
 - **Dell (este PC):** adiciona material extra das aulas manualmente em
-  `material-fornecido/` e material derivado em `notas/`.
+  `material-fornecido/` e material derivado em `notas/`. Depois de adicionar,
+  rode `/sync-material` — sobe isso pro GitHub num passo só (add + commit +
+  push), sem precisar lembrar a sequência de comandos.
 - Regra pra nunca dar conflito: **`git pull` antes de mexer em qualquer
   arquivo**, e commit + push logo depois de terminar — não deixar mudança
   pendurada por dias dos dois lados. O hook `git-pull-auto.sh` avisa disso a
