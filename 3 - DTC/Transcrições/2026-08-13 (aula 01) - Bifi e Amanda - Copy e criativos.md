@@ -4,7 +4,7 @@ status: transcrito
 professor: "Bifi, Amanda"
 curso: "" # TODO: nome oficial do curso/mentoria não identificado — confirmar com o usuário
 tema: "Copy e criativos — fundamentos (alimenta 0-Copywriting e criativo pago em 3-DTC)"
-data: "indefinida (ordem 01)"
+data: "2026-08-13 (data de transcrição — gravação original sem data real conhecida; ordem 01)"
 estrategia: "3 - DTC"
 origem_migracao: "_Projeto-Antigo (audio original: sem-data-copy+criativos-bifi+amanda-01.m4a). Aula dual-tema: copy -> compilar em 0 - Copywriting; criativos -> criativos-pago em 3 - DTC (ver decisions/)."
 ---

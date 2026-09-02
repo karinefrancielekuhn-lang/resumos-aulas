@@ -4,7 +4,7 @@ status: transcrito
 professor: "Laís"
 curso: "" # TODO: nome oficial do curso/mentoria não identificado na transcrição — confirmar com o usuário
 tema: "Estrutura da BridgePage (blocos 1 a 4)"
-data: "indefinida (ordem 01)"
+data: "2026-09-02 (data de transcrição — gravação original sem data real conhecida; ordem 01)"
 estrategia: "1 - VSL Google"
 origem_migracao: "_Projeto-Antigo (audio original: sem-data-trafego-lais-01.m4a)"
 ---

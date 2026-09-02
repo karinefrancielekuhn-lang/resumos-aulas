@@ -4,7 +4,7 @@ status: transcrito
 professor: "Laís"
 curso: "" # TODO: nome oficial do curso/mentoria não identificado na transcrição — confirmar com o usuário
 tema: "5 Pilares do Afiliado Escalado (com Vitor)"
-data: "indefinida (ordem 08)"
+data: "2026-09-02 (data de transcrição — gravação original sem data real conhecida; ordem 08)"
 estrategia: "1 - VSL Google"
 origem_migracao: "_Projeto-Antigo (audio original: sem-data-trafego-lais-08.m4a)"
 ---

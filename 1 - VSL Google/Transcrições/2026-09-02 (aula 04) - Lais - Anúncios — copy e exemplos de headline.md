@@ -4,7 +4,7 @@ status: transcrito
 professor: "Laís"
 curso: "" # TODO: nome oficial do curso/mentoria não identificado na transcrição — confirmar com o usuário
 tema: "Anúncios — copy e exemplos de headline"
-data: "indefinida (ordem 04)"
+data: "2026-09-02 (data de transcrição — gravação original sem data real conhecida; ordem 04)"
 estrategia: "1 - VSL Google"
 origem_migracao: "_Projeto-Antigo (audio original: sem-data-trafego-lais-04.m4a)"
 ---

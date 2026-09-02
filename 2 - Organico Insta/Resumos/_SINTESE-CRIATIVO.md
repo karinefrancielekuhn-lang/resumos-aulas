@@ -66,7 +66,7 @@ Núcleo que a aula 01 estabelece (a confirmar quando entrar aula dedicada ao org
 ### 2. Evoluiu
 Ainda não há aula anterior neste tema para comparar.
 
-### 3. Perecível (RECONFERIR; aula 01, data indefinida)
+### 3. Perecível (RECONFERIR; aula 01, transcrita em 2026-08-13)
 - Formatos do momento (UGC/TikTok Shop, entrevista, história 100% IA) saturam com o
   tempo — o que hoje é "gancho visual bizarro que retém" muda com o feed.
 
@@ -85,9 +85,9 @@ Ainda não há aula anterior neste tema para comparar.
 
 <!-- ===== REGISTRO POR AULA (append-only, ordem cronológica) ===== -->
 
-## Aula 01 (data indefinida) — Princípios de criativo transversais ao orgânico · Amanda e Bifi
-Fonte: transcricao/sem-data-copy+criativos-bifi+amanda-01.txt
-(Timestamps `[aula01 · HH:MM:SS]`. Data da gravação indefinida — arquivo copiado.
+## Aula 01 (2026-08-13) — Princípios de criativo transversais ao orgânico · Amanda e Bifi
+Fonte: [[2026-08-13 (aula 01) - Bifi e Amanda - Copy e criativos]] (em `3 - DTC/Transcrições/`)
+(Timestamps `[aula01 · HH:MM:SS]`. Data = transcrição (2026-08-13); gravação original sem data real conhecida.
 **Aula de contexto pago**; aqui ficam só os trechos cujo princípio generaliza para o
 orgânico. O registro completo, com escala/contas/BM, está em `criativos-pago.md`.)
 

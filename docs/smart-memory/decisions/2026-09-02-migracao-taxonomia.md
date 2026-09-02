@@ -76,3 +76,33 @@ Reconciliação feita via `git merge --no-commit --no-ff origin/main` + resoluç
 **Fluxo Mac↔Dell daqui em diante:** Mac roda o pipeline de transcrição/síntese e dá
 push; Dell adiciona `Materiais/` e pede notas à Nyra, sobe com `/sync-material`. Ver
 `CLAUDE.md` (raiz) seção "Mac ↔ Dell".
+
+## Ajustes pedidos pelo usuário após o primeiro push (2026-09-02, mesmo dia)
+
+1. **`Materiais/` em toda Estratégia ativa, não só em `0 - Copywriting`.** As pastas
+   `1 - VSL Google/Materiais/`, `2 - Organico Insta/Materiais/` e `3 - DTC/Materiais/`
+   já existiam localmente desde a estruturação inicial, mas **nunca apareceram no
+   push** — git não versiona pasta vazia. Corrigido com um `README.md` em cada uma
+   (mesmo texto/convenção do de `0 - Copywriting/Materiais/`).
+2. **Sínteses divididas por sub-tópico**, não mais um `_SINTESE-CONSOLIDADA.md`
+   único por Estratégia — pedido explícito do usuário: "para que servindo de base de
+   conhecimento seja de fácil acesso e consulta".
+   - `1 - VSL Google`: `_SINTESE-COPY-E-PAGINAS.md` (aulas 01-03: estrutura de
+     BridgePage, AIDA/gatilhos, copy) + `_SINTESE-TRAFEGO-E-ESCALA.md` (aulas 04-09:
+     anúncios, lances Google Ads, métricas, pré-escala, 5 pilares, tipos de escala).
+     Divisão exatamente como o usuário descreveu (3 primeiras aulas = copy; demais =
+     tráfego/métrica).
+   - `2 - Organico Insta`: `_SINTESE-FUNDAMENTOS-E-FUNIL.md` (aulas 01, 11 — conceito
+     non-shop, funil, economia, Q&A), `_SINTESE-INFRAESTRUTURA-E-CONTAS.md` (aulas
+     02-07 — e-mail, dispositivo, proxy, criação de contas por plataforma, e a
+     integração do guia externo do colega), `_SINTESE-PRODUCAO-DE-CONTEUDO-IA.md`
+     (aulas 08-10 — avatar, modelagem/estrutura invisível, geração de vídeo). Divisão
+     em 3 (não 2, diferente de VSL Google) porque o conteúdo original tinha 3 blocos
+     naturais claramente distintos para consulta — critério documentado em
+     `docs/smart-memory/agents/sintese/DIGEST.md`. `_SINTESE-CRIATIVO.md` (já
+     existente, transversal) não mudou.
+   - `0 - Copywriting` e `3 - DTC` **não foram divididos** — cada um tem só 1 aula
+     fonte, conteúdo já topicamente coeso.
+   - Todo o conteúdo (Ouro, Consenso/Perecível/Estável/Divergência/Lacunas, registro
+     por aula) foi preservado — nada foi resumido de novo nem reescrito, só
+     redistribuído entre os arquivos novos conforme a aula de origem de cada trecho.

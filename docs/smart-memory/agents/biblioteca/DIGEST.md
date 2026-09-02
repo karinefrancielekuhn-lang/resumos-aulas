@@ -20,9 +20,15 @@ tags: [digest, biblioteca]
 - `Guias/` tem 2 guias migrados (GUIA-CELULAR-ZERO, GUIA_OPERACIONAL_VENDAS_ORGANICAS)
   + 1 guia próprio (`Como editar as sínteses sem perder trabalho`).
 - `0 - Copywriting/Materiais/` tem 11 arquivos (research/swipe de copy, vindos do
-  push do Dell em 2026-09-02). Demais `Materiais/` (1, 2, 3) ainda vazias.
-- Todas as 4 Estratégias ativas (0, 1, 2, 3) têm síntese completa — ver
-  `_INDEX - Aulas.md` para status por aula (Transcrição/Resumo).
+  push do Dell em 2026-09-02). `Materiais/` de 1, 2 e 3 agora existem (com README,
+  já que pasta vazia não é versionada pelo git) mas ainda sem conteúdo.
+- **Todas as Estratégias ativas (0, 1, 2, 3) têm `Materiais/`** — regra fixa do
+  projeto: cada Estratégia precisa da pasta, mesmo vazia, para o Dell poder colar
+  material a qualquer momento.
+- Todas as 4 Estratégias ativas (0, 1, 2, 3) têm síntese completa, **dividida por
+  sub-tópico** quando fazia sentido (VSL Google: 2 arquivos; Organico Insta: 3 +
+  1 transversal) — ver `_INDEX - Aulas.md` para status por aula (Transcrição/Resumo)
+  e os links para cada arquivo de síntese.
 - **Migração pendente:** `_Projeto-Antigo/` ainda existe como staging/backup — todo
   conteúdo relevante já foi movido, mas a pasta não foi apagada (ver decisions/).
 

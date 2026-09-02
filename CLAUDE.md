@@ -28,8 +28,8 @@ Notas/                  ← conteúdo derivado sob pedido (Q&A cruzando Estraté
 
 1. **Coloque** o áudio/vídeo em `_Inbox/`.
 2. **Transcreva:** `_Pipeline/.venv/bin/python _Pipeline/processar.py` (Whisper/Groq) → staging em `_Pipeline/transcricao-bruta/`.
-3. **Classifique e arquive** (Kaelis): identifica a Estratégia, renomeia coerentemente, arquiva em `{Estratégia}/Transcrições/`.
-4. **Sintetize** (Ithuel): gera/atualiza `{Estratégia}/Resumos/_SINTESE-CONSOLIDADA.md` (duas camadas: síntese consolidada + registro por aula append-only).
+3. **Classifique e arquive** (Kaelis): identifica a Estratégia, renomeia coerentemente, arquiva a transcrição em `{Estratégia}/Transcrições/` **e move o áudio/vídeo original de `_Inbox/` para `_Pipeline/audio-processado/`** (arquivo permanente do original — nunca fica em `_Inbox/`, nunca é apagado). É sempre esse o destino final do áudio, não muda por Estratégia.
+4. **Sintetize** (Ithuel): gera/atualiza `{Estratégia}/Resumos/_SINTESE-{SUB-TOPICO}.md` — um arquivo por sub-tópico quando as aulas cobrem assuntos distintos o bastante para consulta separada (ex.: copy/páginas vs tráfego/escala), duas camadas cada (síntese consolidada + registro por aula append-only).
 5. **Compile e organize** (Sorae): copy cross-tema → `0 - Copywriting/`; mantém `_INDEX - Aulas.md` e a taxonomia de pastas.
 6. **Revise** (Threll): veredicto PASS/CONCERNS/FAIL antes de marcar a aula como concluída.
 7. **Pergunte** (Nyra): a qualquer momento, Q&A sobre o acervo inteiro ou pedido de síntese derivada em `Notas/`.
@@ -74,7 +74,7 @@ Comunicação é peer-to-peer via `SendMessage`, pelo nome do agente. **Nenhum a
 ## Regras invariantes
 
 1. **Nada em `_Inbox/` fica sem classificação.** Se Kaelis não conseguir inferir Estratégia/professor/tema com segurança, ele pergunta — nunca adivinha.
-2. **Não invente metadado.** Data desconhecida = "indefinida"/aproximada, nunca inventada. Nome de curso não identificado fica vazio com TODO, nunca inventado.
-3. **Síntese preserva "## Minhas anotações"** — seção do usuário no fim de qualquer `_SINTESE-CONSOLIDADA.md`, nunca editada/movida/apagada ao regravar.
+2. **Não invente metadado.** Data real da gravação desconhecida → usar a **data de transcrição** (dia em que o `processar.py` rodou) como proxy, sempre marcada explicitamente como tal no campo `data` do frontmatter e no nome do arquivo (nunca deixar "sem-data"/"indefinida" solto no resultado final — isso é convenção documentada, não invenção). Nome de curso não identificado fica vazio com TODO, nunca inventado.
+3. **Síntese preserva "## Minhas anotações"** — seção do usuário no fim de qualquer arquivo `_SINTESE-*.md`, nunca editada/movida/apagada ao regravar.
 4. **Reorganizar nunca é apagar.** Mover, nunca deletar, ao remapear conteúdo entre pastas.
 5. **`git push` exige confirmação explícita do usuário** — nenhum agente empurra para o remote por conta própria (o repositório reaproveita o histórico e o remote do projeto anterior).

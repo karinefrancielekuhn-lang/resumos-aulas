@@ -4,7 +4,7 @@ status: transcrito
 professor: "Laís"
 curso: "" # TODO: nome oficial do curso/mentoria não identificado na transcrição — confirmar com o usuário
 tema: "Lances no Google Ads (Maximizar Conversões, Performance Max, VTURB)"
-data: "indefinida (ordem 05)"
+data: "2026-09-02 (data de transcrição — gravação original sem data real conhecida; ordem 05)"
 estrategia: "1 - VSL Google"
 origem_migracao: "_Projeto-Antigo (audio original: sem-data-trafego-lais-05.m4a)"
 ---

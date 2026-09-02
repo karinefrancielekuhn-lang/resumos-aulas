@@ -9,26 +9,33 @@ tags: [index, aulas]
 
 Fonte da verdade sobre o que já foi processado e o que falta. Mantido pela **Sorae**
 (edu-bibliotecario). Cada aula passa por 4 estágios: **Transcrição** (Kaelis) →
-**Resumo** (Ithuel, na síntese consolidada da Estratégia) → **Compilado** (Sorae, só
-para conteúdo cross-tema como copy) → **Revisado/QA** (Threll). As colunas abaixo
-mostram Transcrição e Resumo; nenhuma aula do projeto passou por revisão formal do
-Threll ainda — ver `docs/smart-memory/agents/qa/DIGEST.md`.
+**Resumo** (Ithuel, dividido em uma ou mais sínteses por sub-tópico dentro da
+Estratégia — não um arquivo único) → **Compilado** (Sorae, só para conteúdo
+cross-tema como copy) → **Revisado/QA** (Threll). As colunas abaixo mostram
+Transcrição e Resumo; nenhuma aula do projeto passou por revisão formal do Threll
+ainda — ver `docs/smart-memory/agents/qa/DIGEST.md`. Cada seção de Estratégia abaixo
+lista `Materiais/` (mesmo quando ainda vazia — todas as Estratégias ativas têm a
+pasta, para colar material do Dell via `/sync-material`).
 
 ## 1 - VSL Google
 
 | Aula | Professor | Tema | Transcrição | Resumo |
 |---|---|---|---|---|
-| [[sem-data (aula 01) - Lais - Estrutura da BridgePage (blocos 1 a 4)]] | Laís | Estrutura da BridgePage | ✅ | ✅ |
-| [[sem-data (aula 02) - Lais - Fundamentos de Copy (AIDA e gatilhos mentais)]] | Laís | Fundamentos de Copy | ✅ | ✅ |
-| [[sem-data (aula 03) - Lais - Copy da BridgePage e VSL — estrutura padrão]] | Laís | Copy da BridgePage e VSL | ✅ | ✅ |
-| [[sem-data (aula 04) - Lais - Anúncios — copy e exemplos de headline]] | Laís | Anúncios | ✅ | ✅ |
-| [[sem-data (aula 05) - Lais - Lances no Google Ads (Maximizar Conversões, Performance Max, VTURB)]] | Laís | Lances no Google Ads | ✅ | ✅ |
-| [[sem-data (aula 06) - Lais - Métricas e otimização de campanhas (custo por conversão, passagem da bridge)]] | Laís | Métricas e otimização | ✅ | ✅ |
-| [[sem-data (aula 07) - Lais - Pré-escala (com Vitor)]] | Laís, Vitor | Pré-escala | ✅ | ✅ |
-| [[sem-data (aula 08) - Lais - 5 Pilares do Afiliado Escalado (com Vitor)]] | Laís, Vitor | 5 Pilares do Afiliado Escalado | ✅ | ✅ |
-| [[sem-data (aula 09) - Lais - Tipos de escala (horizontal e contingência)]] | Laís | Tipos de escala | ✅ | ✅ |
+| [[2026-09-02 (aula 01) - Lais - Estrutura da BridgePage (blocos 1 a 4)]] | Laís | Estrutura da BridgePage | ✅ | ✅ |
+| [[2026-09-02 (aula 02) - Lais - Fundamentos de Copy (AIDA e gatilhos mentais)]] | Laís | Fundamentos de Copy | ✅ | ✅ |
+| [[2026-09-02 (aula 03) - Lais - Copy da BridgePage e VSL — estrutura padrão]] | Laís | Copy da BridgePage e VSL | ✅ | ✅ |
+| [[2026-09-02 (aula 04) - Lais - Anúncios — copy e exemplos de headline]] | Laís | Anúncios | ✅ | ✅ |
+| [[2026-09-02 (aula 05) - Lais - Lances no Google Ads (Maximizar Conversões, Performance Max, VTURB)]] | Laís | Lances no Google Ads | ✅ | ✅ |
+| [[2026-09-02 (aula 06) - Lais - Métricas e otimização de campanhas (custo por conversão, passagem da bridge)]] | Laís | Métricas e otimização | ✅ | ✅ |
+| [[2026-09-02 (aula 07) - Lais - Pré-escala (com Vitor)]] | Laís, Vitor | Pré-escala | ✅ | ✅ |
+| [[2026-09-02 (aula 08) - Lais - 5 Pilares do Afiliado Escalado (com Vitor)]] | Laís, Vitor | 5 Pilares do Afiliado Escalado | ✅ | ✅ |
+| [[2026-09-02 (aula 09) - Lais - Tipos de escala (horizontal e contingência)]] | Laís | Tipos de escala | ✅ | ✅ |
 
-Síntese consolidada: [[1 - VSL Google/Resumos/_SINTESE-CONSOLIDADA|_SINTESE-CONSOLIDADA]]
+Síntese dividida por sub-tópico (aulas 01-03 vs 04-09):
+[[1 - VSL Google/Resumos/_SINTESE-COPY-E-PAGINAS|_SINTESE-COPY-E-PAGINAS]] ·
+[[1 - VSL Google/Resumos/_SINTESE-TRAFEGO-E-ESCALA|_SINTESE-TRAFEGO-E-ESCALA]]
+
+**Materiais:** `1 - VSL Google/Materiais/` — vazia, aguardando material do Dell.
 
 **Pendente:** revisão do Threll (QA). Datas reais das aulas não identificadas (ver
 frontmatter de cada transcrição, campo `data`) — confirmar com o usuário se souber, e
@@ -51,20 +58,27 @@ das 9 aulas inferida por timestamp de importação (não por conteúdo) — não
 | [[2026-08-22 (aula 10) - Gustavo Roque - Geracao de video (Veo3-CapCut)]] | Gustavo Roque | Geração de vídeo | ✅ | ✅ |
 | [[2026-08-22 (aula 11) - Gustavo Roque - AO VIVO — conceito non-shop e Q&A (com Bifi)]] | Gustavo Roque, Bifi | AO VIVO Q&A | ✅ | ✅ |
 
-Síntese consolidada: [[2 - Organico Insta/Resumos/_SINTESE-CONSOLIDADA|_SINTESE-CONSOLIDADA]] ·
-Princípios de criativo (transversal): [[2 - Organico Insta/Resumos/_SINTESE-CRIATIVO|_SINTESE-CRIATIVO]]
+Síntese dividida por sub-tópico:
+[[2 - Organico Insta/Resumos/_SINTESE-FUNDAMENTOS-E-FUNIL|_SINTESE-FUNDAMENTOS-E-FUNIL]] (conceito non-shop, funil, Q&A — aulas 01, 11) ·
+[[2 - Organico Insta/Resumos/_SINTESE-INFRAESTRUTURA-E-CONTAS|_SINTESE-INFRAESTRUTURA-E-CONTAS]] (e-mail, dispositivo, proxy, contas — aulas 02-07) ·
+[[2 - Organico Insta/Resumos/_SINTESE-PRODUCAO-DE-CONTEUDO-IA|_SINTESE-PRODUCAO-DE-CONTEUDO-IA]] (avatar, modelagem, vídeo — aulas 08-10) ·
+[[2 - Organico Insta/Resumos/_SINTESE-CRIATIVO|_SINTESE-CRIATIVO]] (princípios de criativo, transversal, herdado de `3 - DTC`)
+
+**Materiais:** `2 - Organico Insta/Materiais/` — vazia, aguardando material do Dell.
 
 **Pendente:** revisão do Threll (QA) sob a nova taxonomia — conteúdo migrado do projeto
-antigo sem alteração de substância, só reorganizado. Datas são aproximadas (import, não
-gravação real — ver `decisions/`).
+antigo sem alteração de substância, só reorganizado e dividido por sub-tópico. Datas são
+aproximadas (import, não gravação real — ver `decisions/`).
 
 ## 3 - DTC
 
 | Aula | Professor | Tema | Transcrição | Resumo |
 |---|---|---|---|---|
-| [[sem-data (aula 01) - Bifi e Amanda - Copy e criativos]] | Bifi, Amanda | Copy e criativos (fundamentos) | ✅ | ✅ |
+| [[2026-08-13 (aula 01) - Bifi e Amanda - Copy e criativos]] | Bifi, Amanda | Copy e criativos (fundamentos) | ✅ | ✅ |
 
 Síntese consolidada (criativo pago): [[3 - DTC/Resumos/_SINTESE-CONSOLIDADA|_SINTESE-CONSOLIDADA]]
+
+**Materiais:** `3 - DTC/Materiais/` — vazia, aguardando material do Dell.
 
 **Pendente:** revisão do Threll (QA). A parte de **copy** desta aula também alimenta
 [[0 - Copywriting/_SINTESE-CONSOLIDADA|0 - Copywriting]].

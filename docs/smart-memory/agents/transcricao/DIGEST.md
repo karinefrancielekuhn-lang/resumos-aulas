@@ -19,8 +19,12 @@ tags: [digest, transcricao]
   escreve staging bruto em `_Pipeline/transcricao-bruta/`. Kaelis lê daqui, classifica,
   renomeia e arquiva em `{Estratégia}/Transcrições/`.
 - Convenção de nome de áudio herdada do projeto antigo:
-  `AAAA-MM-DD-<tema[+tema]>-<professor[+professor]>-NN.ext` (ou `sem-data-...` quando a
-  data real é desconhecida).
+  `AAAA-MM-DD-<tema[+tema]>-<professor[+professor]>-NN.ext` (ou `sem-data-...` na
+  entrada, quando a data real é desconhecida). **No arquivo final arquivado, porém,
+  `sem-data`/`indefinida` nunca fica solto** — o Kaelis usa a data de transcrição
+  como proxy, marcada como tal (ex.: `2026-09-02 (aula 01) - Professor - Tema.md` +
+  frontmatter `data: "2026-09-02 (data de transcrição — gravação original sem data
+  real conhecida)"`). Ver `docs/smart-memory/project/conventions.md`.
 - Glossário (`_Pipeline/glossario.txt`) tem 4 professores cadastrados: Bifi, Amanda,
   Gustavo Roque, Laís. Acrescentar novo professor aqui sempre que aparecer.
 - `_Inbox/` deve ficar vazia ao final do trabalho do Kaelis — é a autoridade exclusiva

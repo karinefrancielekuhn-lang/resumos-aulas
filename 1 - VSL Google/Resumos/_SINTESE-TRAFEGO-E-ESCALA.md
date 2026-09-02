@@ -1,40 +1,29 @@
-# VSL Google
+# VSL Google — Tráfego, Métricas e Escala
 
 <!-- ===== SÍNTESE CONSOLIDADA (reescrita por inteiro a cada aula nova) ===== -->
 
-> Base atual: **9 aulas** (aulas 01-09, datas indefinidas — arquivos chegaram sem
-> convenção de nome, ordem inferida por timestamp de importação, não confirmada
-> com a Laís). Professora **Laís** (gestora de tráfego, não copywriter — foco em
-> Google Ads para funil VSL/afiliados, nicho de saúde/emagrecimento no mercado
-> dos EUA). Convidado **Vitor** nas aulas 07 e 08 (parceiro de mentoria, mais
-> experiente em orçamentos altos). Timestamps no formato `[aulaNN · HH:MM:SS]`.
+> **Escopo:** anúncios, lances no Google Ads, métricas de otimização, pré-escala e
+> escala (horizontal e vertical). Pressupõe os fundamentos de copy e estrutura de
+> página — ver a nota irmã
+> [[_SINTESE-COPY-E-PAGINAS|_SINTESE-COPY-E-PAGINAS]].
+>
+> Base atual: **6 aulas** (aulas 04-09, transcritas em 2026-09-02 — gravação original sem data real conhecida). Professora **Laís**
+> (gestora de tráfego). Convidado **Vitor** nas aulas 07 e 08 (parceiro de mentoria,
+> mais experiente em orçamentos altos). Timestamps no formato `[aulaNN · HH:MM:SS]`.
 > Marcação: (fato)/(opinião)/(testado).
 
 ## Ouro consolidado
 
-**Estrutura de BridgePage e VSL**
-- **80-20 da BridgePage está nos 3 primeiros blocos** (headline/atenção, dor/conexão,
-  mecanismo+solução) — o bloco 1 é o mais crítico: se a headline não conecta, o lead
-  sai imediatamente **(opinião/testado)** [aula01 · 00:03:18–00:03:47].
-- **Nunca existe produto na BridgePage** — fala sempre do método/truque, nunca do
-  produto ou marca **(fato)** [aula03 · 09:43].
-- **Página da VSL não precisa ser sofisticada** — a básica (headline + vídeo + botão)
-  converte bem; não vale a pena "inventar firula" antes de validar o funil
-  **(opinião, forte)** [aula01 · 49:07–50:07].
-- **Gatilhos de venda (potes, cronômetro, escassez) só aparecem depois de um tempo
-  de vídeo assistido** — a Laís nunca testou pôr contadores de estoque abaixo do
-  vídeo, mesmo achando que ajudaria **(opinião não testada, admitido)** [aula01 · 47:38–48:37].
-
-**Anúncios e copy**
+**Anúncios**
 - **O anúncio é o primeiro filtro do funil** — CTR alto não é meta; o alvo é filtrar
   quem realmente quer o que está na Bridge, mesmo que isso reduza CTR
   **(opinião/fato)** [aula04 · 00:58–01:28].
-- **Gatilho do medo é o que a Laís considera o que mais vende**, mais forte que o
-  desejo/sonho da solução **(opinião pessoal, forte)** [aula02 · 05:21–05:31].
-- **Prompt de IA para copy: nunca usar "do zero"** — sempre alimentar a IA com um
-  PDF/aula de referência (ex.: a própria aula transcrita) e revisar bloco a bloco;
-  a primeira versão gerada por IA tende a soar "genérica" e precisa de ajuste humano
-  **(testado, demonstrado ao vivo)** [aula01 · 16:50–22:27].
+- **O anúncio precisa "prometer" exatamente o que a Bridge entrega** — analogia do
+  anúncio de carro/casa: não pode ser diferente do que a pessoa encontra
+  **(fato/opinião)** [aula04 · 03:08–03:35].
+- **Recursos de anúncio (sitelinks, extensões): só ativa depois** que a campanha já
+  está vendendo, nunca no início — sitelink é o recurso favorito dela **(opinião/
+  testado)** [aula04 · 05:43–07:06].
 
 **Google Ads — lances e orçamento**
 - **CPA-alvo é a estratégia mais usada por ela**, porque dá mais controle sobre o
@@ -57,8 +46,8 @@
 
 **Métricas**
 - **Custo por conversão é a métrica mãe, acima de qualquer outra** — inclusive acima
-  do que a própria Laís ensina, se o dado disser o contrário **(opinião central, repetida
-  várias vezes)** [aula06 · 01:25–02:24].
+  do que a própria Laís ensina, se o dado disser o contrário **(opinião central,
+  repetida várias vezes)** [aula06 · 01:25–02:24].
 - **Passagem da BridgePage: mínimo 50-60% para quem quer escalar** — no início é
   normal ser pior **(opinião/testado)** [aula06 · 05:13].
 - **Análise de 3 e 7 dias, todo dia**, por palavra-chave e por campanha, para decidir
@@ -66,6 +55,9 @@
   **(testado, método pessoal)** [aula06 · 16:27–17:57].
 - **CTR abaixo de 5% é ruim, acima de 15% é bom** (métrica secundária) **(opinião)**
   [aula06 · 08:14–08:44].
+- **Teste A/B "de verdade" precisa de Cloaker** rodando as duas versões
+  simultaneamente (mesmo período, tráfego dividido 50/50) — testar sequencialmente
+  não é limpo, porque o período muda **(fato/opinião)** [aula06 · 06:10–08:14].
 
 **Pré-escala e escala**
 - **Pré-escala = 15-30 conversões acumuladas + vendas quase diárias + ROI positivo,
@@ -108,11 +100,10 @@
   atribuem seus maiores ganhos a "aguentar" dias ruins de campanhas validadas.
 - **Conta/campanha precisa de tempo e dados para ficar "inteligente"** antes de
   qualquer movimento agressivo — vale para pré-escala, escala e novos testes.
-- **BridgePage nunca vende o produto** — vende o método/truque, sempre.
 
 ### 2. Evoluiu
 Não há contradição relevante entre aulas — professora única, discurso consistente
-ao longo das 9 aulas. Diferença de **ênfase**, não de conteúdo, registrada em
+ao longo das 6 aulas. Diferença de **ênfase**, não de conteúdo, registrada em
 Divergência abaixo.
 
 ### 3. Perecível (depende de ferramenta/mercado atual — RECONFERIR)
@@ -121,18 +112,14 @@ Divergência abaixo.
   foram gravadas, tendem a mudar com nicho e mercado [aula05, aula09].
 - Ferramentas citadas como "as três essenciais" (VTURB, um tracker, um Cloaker) —
   ecossistema pode mudar; verificar se ainda são as recomendadas.
-- Templates de BridgePage (estilo notícia imitando CNN, estilo YouTube) — podem
-  saturar ou deixar de converter com o tempo [aula01 · 41:18–43:18].
 
 ### 4. Estável (princípios que não expiram)
-- Estrutura de BridgePage por blocos (80-20 nos 3 primeiros).
-- AIDA + gatilhos mentais (curiosidade, medo, prova social, autoridade,
-  escassez/urgência/FOMO) como fundamentos de copy.
 - CPA-alvo vs Maximizar Conversões vs ROAS como as três estratégias de lance
   no Google Ads, com usos distintos.
 - Escala horizontal (duplicação/contingência) vs escala vertical (orçamento/CPA)
   como os dois eixos de crescimento.
 - 5 Pilares do Afiliado Escalado como checklist antes de tentar escalar.
+- Análise de 3 e 7 dias como método de decisão sobre palavras-chave.
 
 ### 5. Divergência entre professores
 - **Agressividade em orçamento:** Laís é conservadora (nunca sobe mais que 30%,
@@ -143,185 +130,24 @@ Divergência abaixo.
 ### 6. Lacunas (prometido para o futuro / ficou pela metade)
 - **Módulo de contingência completo** (como criar ID de perfil de pagamento
   isolado) — mencionado como "vou liberar logo" [aula09 · 13:33–14:25].
-- **Pack de páginas prontas** (Elementor + Tomcat, várias variações de
-  formato/nicho) — prometido para "terça-feira" com ajuda do Felipe [aula04 · 07:45–09:05].
+- **Pack de páginas prontas** (ver síntese de copy/páginas) — prometido para
+  "terça-feira" com ajuda do Felipe [aula04 · 07:45–09:05].
 - **Aula bônus com "Re"** e sessão de tira-dúvidas final — mencionada mas não
-  capturada nas 9 transcrições disponíveis [aula04 · 08:18–08:31].
+  capturada nas transcrições disponíveis [aula04 · 08:18–08:31].
 - **ROAS como estratégia de lance** — a própria Laís admite não ter "masterizado"
   o suficiente para ensinar em profundidade [aula05 · 16:02–16:38].
 
 <!-- ===== REGISTRO POR AULA (append-only, ordem cronológica) ===== -->
 
-## Aula 01 (sem data, ordem 01) — Estrutura da BridgePage (blocos 1 a 4) · Laís
-Fonte: [[sem-data (aula 01) - Lais - Estrutura da BridgePage (blocos 1 a 4)]]
-
-**Ouro**
-- Bloco 1 = headline/atenção (o mais crítico); bloco 2 = dor/conexão; bloco 3 =
-  mecanismo + solução — juntos são o 80-20 da página **(opinião)** [00:03:18].
-- Blocos 4+ são complementares (dados, depoimentos, FAQ), variam por nicho **(opinião)**
-  [00:04:55].
-- Demonstração ao vivo: gerar copy com IA a partir de um PDF da própria aula, depois
-  refinar bloco a bloco pedindo ajustes específicos (mais medo, mais autoridade,
-  conexão emocional) — a versão final ficou visivelmente melhor que a primeira
-  **(testado)** [16:50–35:13].
-- Pop-up de saída ("dar um up na passagem"): aumenta passagem mas não
-  proporcionalmente as vendas, porque o lead não escolheu ver a VSL por vontade
-  própria **(opinião/testado)** [36:49–39:21].
-- Página da VSL básica (headline + vídeo + botão) já converte — potes/cronômetro/
-  garantias abaixo do vídeo são complementares, ela sempre usou botão e nunca testou
-  os potes **(opinião)** [40:04–49:07].
-
-**Roteiro**
-- [00:00] Bloco 1 (atenção) e bloco 2 (conexão com a dor).
-- [02:00] Bloco 3 (mecanismo do problema e da solução) — 80-20 da página.
-- [04:17] Blocos complementares (4+), variam por nicho.
-- [06:07] Exemplo real: página de neuropatia (truque da pimenta com gelo).
-- [10:07] Exemplo real: página de próstata (mecanismo do problema, autoridade).
-- [16:50] Demonstração: geração de copy via IA a partir da própria aula em PDF.
-- [40:04] Estrutura da página de VSL (básica, notícia, YouTube).
-- [43:18] Gatilhos na página de VSL (depoimento, cronômetro, autoridade, escassez).
-- [46:38] Exemplo real: página pessoal da Laís com todos os gatilhos ativos.
-- [49:07] Regra: não gastar energia em polimento antes de validar o funil.
-
-**Conceitos e definições**
-- **Bloco 1** [00:00–01:00]: chama atenção e desperta sentimento (medo, curiosidade,
-  esperança ou prova social) para "enganchar" o lead.
-- **80-20 da BridgePage** [03:18]: os primeiros 3 blocos concentram o essencial;
-  o resto é complementar.
-- **Mecanismo do problema / mecanismo da solução** [02:00]: a explicação do "porquê"
-  do problema (mecanismo do problema) e do "porquê" a solução funciona (mecanismo
-  da solução) — ambos ficam detalhados na VSL, a Bridge só introduz.
-- **Pop-up de saída** [37:18]: código que dispara ao tentar fechar a aba ou após
-  10s na página; aumenta passagem mas o Google não gosta.
-
-**Exemplos e casos concretos**
-- Página de neuropatia (truque de pimenta com gelo, Dr. fictício): headline com
-  medo + curiosidade, mecanismo (toxinas bloqueiam nervos), CTA em texto [06:07–09:25].
-- Página de próstata (Vick, disfunção do sono): mecanismo do problema explicado
-  com "verdade chocante" e dado estatístico (78% dos homens 40+) [10:18–12:10].
-- Iteração ao vivo com IA: pedido de mais medo na sub-headline, conexão emocional
-  do médico fictício com a esposa (também teve o problema), CTA de urgência
-  [23:33–32:51].
-
-**Números citados**
-- Ritmo de teste de headline via IA: 5 opções geradas, escolhida a de maior carga
-  de medo ("queimação/formigamento... nervos desligando") [34:19–34:49].
-
-**Ambiguidades**
-- [?] [16:15] "Skill instalada dentro do Cloud" para gerar storyboard/copy — produto/
-  ferramenta específica não identificada claramente na transcrição.
-
----
-
-## Aula 02 (sem data, ordem 02) — Fundamentos de Copy (AIDA e gatilhos mentais) · Laís
-Fonte: [[sem-data (aula 02) - Lais - Fundamentos de Copy (AIDA e gatilhos mentais)]]
-
-**Ouro**
-- Laís se define como gestora de tráfego, não copywriter — recomenda modelar
-  páginas validadas em vez de escrever copy do zero sem experiência **(opinião)**
-  [00:00–01:00].
-- Gatilho do medo é o favorito dela — "o medo é muito mais forte do que o desejo"
-  **(opinião pessoal)** [05:21–05:57].
-- Prova social explicada via efeito manada (exemplo do McDonald's e da fila) —
-  pessoas confiam mais no que "os outros" já validaram **(opinião)** [06:15–07:49].
-- Persona é pré-requisito para qualquer gatilho funcionar — "não adianta conhecer
-  os gatilhos se não sabe para quem está falando" **(opinião central)** [10:02–10:40].
-
-**Roteiro**
-- [00:00] Introdução: copy não é a especialidade dela, mas é fundamental.
-- [01:30] AIDA (Atenção, Interesse, Desejo, Ação).
-- [02:40] Gatilhos mentais — por que funcionam (aprovados cientificamente).
-- [04:45] Curiosidade.
-- [05:21] Medo.
-- [06:15] Prova social.
-- [07:49] Autoridade.
-- [08:50] Escassez/urgência/FOMO.
-- [10:02] Persona como pré-requisito de tudo.
-
-**Conceitos e definições**
-- **AIDA** [01:30]: Atenção → Interesse → Desejo → Ação; framework "mais velho
-  que anda para frente, mas que funciona".
-- **Curiosidade** [04:45]: fazer a pessoa querer saber um segredo/truque sem
-  entregar a resposta na headline.
-- **Medo** [05:21]: mostrar o que a pessoa perde se não agir — mais forte que o
-  desejo da solução.
-- **Prova social** [06:15]: pessoas confiam mais quando veem outros validando.
-- **Autoridade** [07:49]: aval de quem "parece saber do assunto" — inclusive
-  famosos em VSLs.
-- **Escassez/Urgência/FOMO** [08:50]: poucas vagas/tempo — explorado mais na VSL
-  do que na Bridge.
-
-**Exemplos e casos concretos**
-- Headline de curiosidade: "Descubra o que acontece quando você mistura esses
-  dois alimentos no café da manhã. Diabéticos ficaram chocados" [04:57].
-- Headline de medo: "a cada ano sem agir seu metabolismo desacelera..." [05:57].
-- Prova social: "milhares de pessoas já usaram essa mistura natural..." [07:49].
-- Autoridade: analogia do policial/bombeiro numa cena de acidente — todos obedecem
-  automaticamente [08:19–08:50].
-
-**Números citados**
-- Nenhum número específico citado nesta aula.
-
-**Ambiguidades**
-- Nenhuma relevante.
-
----
-
-## Aula 03 (sem data, ordem 03) — Copy da BridgePage e VSL — estrutura padrão · Laís
-Fonte: [[sem-data (aula 03) - Lais - Copy da BridgePage e VSL — estrutura padrão]]
-
-**Ouro**
-- Estrutura básica de Bridge = headline + sub-headline + imagem + texto + CTA
-  (+ depoimento/GIF opcional) **(opinião, "minha visão")** [01:48–02:10].
-- BridgePage nunca fala do produto, sempre do método/truque — repetido como
-  regra absoluta **(fato)** [09:43].
-- Página de quiz: o objetivo não é qualificar o lead tecnicamente, é fazer a
-  própria pessoa **afirmar** que tem o problema — "o sim mais forte é o que a
-  pessoa dá a si mesma" **(opinião, princípio de vendas)** [14:35–14:52].
-- Google suspende conta que joga tráfego direto para a VSL sem Bridge — mencionado
-  como motivo adicional (além de preparar o lead) para sempre ter Bridge **(fato,
-  citado sem detalhar a política exata)** [00:48–01:18].
-
-**Roteiro**
-- [00:00] Por que a BridgePage existe (conscientizar antes da VSL).
-- [01:48] Estrutura básica padrão (headline, sub-headline, imagem, texto, CTA).
-- [02:33] Exemplo real: Bridge de memória (astronautas da NASA).
-- [10:13] Outros formatos: blog de saúde, notícia (News), quiz.
-- [15:21] Fechamento: fundamentos antes de aprofundar estruturas.
-
-**Conceitos e definições**
-- **Estrutura padrão de Bridge** [01:56]: headline, sub-headline, imagem, texto,
-  CTA, opcionalmente depoimento/GIF.
-- **Página de quiz** [12:37–15:02]: 2-3 perguntas de auto-qualificação antes do
-  CTA para a VSL; fuga um pouco maior, mas conscientização também maior.
-
-**Exemplos e casos concretos**
-- Bridge de memória: headline "lapsos de memória roubando sua liberdade", ângulo
-  do Dr. Sam Walters (ex-cientista da NASA), truque de 10s inspirado em astronautas
-  [04:19–08:43].
-- Bridge estilo notícia (imita CNN): depoimentos, selo "ao vivo", links não
-  funcionais — só para dar autoridade visual [41:29–42:18].
-- Bridge estilo YouTube: simula comentários "em tempo real" via Tomcat, cria
-  sensação de vídeo popular [42:48–43:18].
-
-**Números citados**
-- Nenhum número específico citado nesta aula.
-
-**Ambiguidades**
-- Nenhuma relevante.
-
----
-
-## Aula 04 (sem data, ordem 04) — Anúncios — copy e exemplos de headline · Laís
-Fonte: [[sem-data (aula 04) - Lais - Anúncios — copy e exemplos de headline]]
+## Aula 04 (2026-09-02, ordem 04) — Anúncios — copy e exemplos de headline · Laís
+Fonte: [[2026-09-02 (aula 04) - Lais - Anúncios — copy e exemplos de headline]]
 
 **Ouro**
 - CTR alto não é meta — é sinal de alerta se a passagem da Bridge cair junto,
   porque significa clique "clickbait" que não converte **(opinião/testado)**
   [01:28–02:58].
-- O anúncio precisa "prometer" exatamente o que a Bridge entrega — analogia do
-  anúncio de carro/casa: não pode ser diferente do que a pessoa encontra
-  **(fato/opinião)** [03:08–03:35].
+- O anúncio precisa "prometer" exatamente o que a Bridge entrega **(fato/opinião)**
+  [03:08–03:35].
 - Recursos de anúncio (sitelinks, extensões): só ativa **depois** que a campanha
   já está vendendo, nunca no início — sitelink é o recurso favorito dela, "pelo
   menos uma venda por dia" vem por ele **(opinião/testado)** [05:43–07:06].
@@ -351,8 +177,8 @@ Fonte: [[sem-data (aula 04) - Lais - Anúncios — copy e exemplos de headline]]
 
 ---
 
-## Aula 05 (sem data, ordem 05) — Lances no Google Ads (Maximizar Conversões, Performance Max, VTURB) · Laís
-Fonte: [[sem-data (aula 05) - Lais - Lances no Google Ads (Maximizar Conversões, Performance Max, VTURB)]]
+## Aula 05 (2026-09-02, ordem 05) — Lances no Google Ads (Maximizar Conversões, Performance Max, VTURB) · Laís
+Fonte: [[2026-09-02 (aula 05) - Lais - Lances no Google Ads (Maximizar Conversões, Performance Max, VTURB)]]
 
 **Ouro**
 - Hack de destravar conta: duplicar a melhor campanha, colocar em Maximizar
@@ -403,8 +229,8 @@ Fonte: [[sem-data (aula 05) - Lais - Lances no Google Ads (Maximizar Conversões
 
 ---
 
-## Aula 06 (sem data, ordem 06) — Métricas e otimização de campanhas (custo por conversão, passagem da bridge) · Laís
-Fonte: [[sem-data (aula 06) - Lais - Métricas e otimização de campanhas (custo por conversão, passagem da bridge)]]
+## Aula 06 (2026-09-02, ordem 06) — Métricas e otimização de campanhas (custo por conversão, passagem da bridge) · Laís
+Fonte: [[2026-09-02 (aula 06) - Lais - Métricas e otimização de campanhas (custo por conversão, passagem da bridge)]]
 
 **Ouro**
 - Custo por conversão é a métrica mãe — "não tem esperança de que vai dar certo,
@@ -455,8 +281,8 @@ Fonte: [[sem-data (aula 06) - Lais - Métricas e otimização de campanhas (cust
 
 ---
 
-## Aula 07 (sem data, ordem 07) — Pré-escala (com Vitor) · Laís, Vitor
-Fonte: [[sem-data (aula 07) - Lais - Pré-escala (com Vitor)]]
+## Aula 07 (2026-09-02, ordem 07) — Pré-escala (com Vitor) · Laís, Vitor
+Fonte: [[2026-09-02 (aula 07) - Lais - Pré-escala (com Vitor)]]
 
 **Ouro**
 - Pré-escala = 15-30 conversões acumuladas + vendas quase diárias + ROI positivo
@@ -502,9 +328,8 @@ Fonte: [[sem-data (aula 07) - Lais - Pré-escala (com Vitor)]]
 
 **Exemplos e casos concretos**
 - Vitor perdendo posição no leilão até aceitar aumento de lance sugerido pelo
-  concorrente ("Gugu") de R$3 mil para R$45 mil num teste pontual — mudou
-  completamente sua posição no leilão sem gastar tudo isso na prática [17:33–18:46]
-  (nota: este exemplo é da aula 09, mas referenciado antecipadamente no diálogo).
+  concorrente ("Gugu") de R$3 mil para R$45 mil num teste pontual — referenciado
+  aqui antecipadamente, o episódio completo está na aula 09 [17:33–18:46].
 
 **Números citados**
 - Pré-escala: 15-30 conversões acumuladas [01:52].
@@ -518,8 +343,8 @@ Fonte: [[sem-data (aula 07) - Lais - Pré-escala (com Vitor)]]
 
 ---
 
-## Aula 08 (sem data, ordem 08) — 5 Pilares do Afiliado Escalado (com Vitor) · Laís, Vitor
-Fonte: [[sem-data (aula 08) - Lais - 5 Pilares do Afiliado Escalado (com Vitor)]]
+## Aula 08 (2026-09-02, ordem 08) — 5 Pilares do Afiliado Escalado (com Vitor) · Laís, Vitor
+Fonte: [[2026-09-02 (aula 08) - Lais - 5 Pilares do Afiliado Escalado (com Vitor)]]
 
 **Ouro**
 - **Pilar 1 — Conta inteligente**: quanto mais conversões acumuladas, mais rápido
@@ -569,8 +394,8 @@ Fonte: [[sem-data (aula 08) - Lais - 5 Pilares do Afiliado Escalado (com Vitor)]
 
 ---
 
-## Aula 09 (sem data, ordem 09) — Tipos de escala (horizontal e contingência) · Laís, Vitor (Q&A)
-Fonte: [[sem-data (aula 09) - Lais - Tipos de escala (horizontal e contingência)]]
+## Aula 09 (2026-09-02, ordem 09) — Tipos de escala (horizontal e contingência) · Laís, Vitor (Q&A)
+Fonte: [[2026-09-02 (aula 09) - Lais - Tipos de escala (horizontal e contingência)]]
 
 **Ouro**
 - Escala horizontal = duplicar o funil validado em conta/domínio/e-mail/perfil de

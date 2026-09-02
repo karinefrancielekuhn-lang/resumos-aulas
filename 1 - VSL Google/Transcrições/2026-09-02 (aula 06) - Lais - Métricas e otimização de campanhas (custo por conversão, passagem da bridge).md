@@ -4,7 +4,7 @@ status: transcrito
 professor: "Laís"
 curso: "" # TODO: nome oficial do curso/mentoria não identificado na transcrição — confirmar com o usuário
 tema: "Métricas e otimização de campanhas (custo por conversão, passagem da bridge)"
-data: "indefinida (ordem 06)"
+data: "2026-09-02 (data de transcrição — gravação original sem data real conhecida; ordem 06)"
 estrategia: "1 - VSL Google"
 origem_migracao: "_Projeto-Antigo (audio original: sem-data-trafego-lais-06.m4a)"
 ---

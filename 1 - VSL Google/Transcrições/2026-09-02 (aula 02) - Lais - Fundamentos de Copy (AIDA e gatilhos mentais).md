@@ -4,7 +4,7 @@ status: transcrito
 professor: "Laís"
 curso: "" # TODO: nome oficial do curso/mentoria não identificado na transcrição — confirmar com o usuário
 tema: "Fundamentos de Copy (AIDA e gatilhos mentais)"
-data: "indefinida (ordem 02)"
+data: "2026-09-02 (data de transcrição — gravação original sem data real conhecida; ordem 02)"
 estrategia: "1 - VSL Google"
 origem_migracao: "_Projeto-Antigo (audio original: sem-data-trafego-lais-02.m4a)"
 ---

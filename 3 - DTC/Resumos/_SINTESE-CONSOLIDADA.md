@@ -5,7 +5,7 @@
 > **Escopo:** criativo para **tráfego pago** (Meta / Google Ads) — modelagem, escala e as
 > métricas de conta/BM que a sustentam. Disciplina **separada** do criativo orgânico
 > (ver `criativos-organico.md` e `organico.md`).
-> Base atual: **1 aula** (aula 01, data indefinida — Amanda + Bifi). "Consenso" e
+> Base atual: **1 aula** (aula 01, transcrita em 2026-08-13 — Amanda + Bifi). "Consenso" e
 > "Evoluiu" se firmam a partir da segunda aula deste tema.
 > Marcação: (fato) / (opinião) / (testado). Timestamps `[aula01 · HH:MM:SS]`.
 > **Itens marcados [transversal]** também aparecem em `criativos-organico.md` porque o
@@ -59,7 +59,7 @@ Núcleo que a aula 01 estabelece (a confirmar nas próximas):
 ### 2. Evoluiu
 Ainda não há aula anterior neste tema para comparar.
 
-### 3. Perecível (RECONFERIR; aula 01, data indefinida)
+### 3. Perecível (RECONFERIR; aula 01, transcrita em 2026-08-13)
 - Formatos do momento: história 100% IA + música IA cantada (anúncio de ~10 min);
   UGC/TikTok Shop (ex.: "boob filler" para olheira; teste do dedo; perfume na
   academia); entrevista. Saturam com o tempo.
@@ -85,8 +85,8 @@ Ainda não há aula anterior neste tema para comparar.
 
 <!-- ===== REGISTRO POR AULA (append-only, ordem cronológica) ===== -->
 
-## Aula 01 (data indefinida) — Modelagem de criativo e as diferenças DTC × VSL · Amanda e Bifi
-Fonte: transcricao/sem-data-copy+criativos-bifi+amanda-01.txt
+## Aula 01 (2026-08-13) — Modelagem de criativo e as diferenças DTC × VSL · Amanda e Bifi
+Fonte: [[2026-08-13 (aula 01) - Bifi e Amanda - Copy e criativos]]
 (Timestamps `[aula01 · HH:MM:SS]`. Data da gravação indefinida — arquivo copiado.
 Aula de contexto **pago**; itens transversais também constam em `criativos-organico.md`.)
 
@@ -146,7 +146,7 @@ Aula de contexto **pago**; itens transversais também constam em `criativos-orga
 - **Cabelo** [aula01 · 01:08:12; 01:14:03]: avatar com cabelo enorme como prova
   visual; mulher medindo o cabelo com régua a cada semana para "provar mais".
 
-**Números citados** (envelhecem rápido — aula 01, data indefinida)
+**Números citados** (envelhecem rápido — aula 01, transcrita em 2026-08-13)
 - Escala ABO **até ~10×**; conta boa ~**1%**, ruim ~**10%**, mediana ~**89%**
   [aula01 · 02:19:35; 02:27:30–02:28:29].
 - Orçamento inicial ~**US$40/dia** (ou menos/orgânico) [aula01 · 00:03:55].

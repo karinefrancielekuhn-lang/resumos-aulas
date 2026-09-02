@@ -2,7 +2,7 @@
 
 <!-- ===== SÍNTESE CONSOLIDADA (reescrita por inteiro a cada aula nova) ===== -->
 
-> Base atual: **1 aula** (aula 01, data indefinida — Amanda + Bifi). Ainda não há
+> Base atual: **1 aula** (aula 01, transcrita em 2026-08-13 — Amanda + Bifi). Ainda não há
 > aulas anteriores para comparar; as seções "Consenso" e "Evoluiu" se firmam a
 > partir da segunda aula deste tema.
 
@@ -73,7 +73,7 @@ Núcleo que a aula 01 estabelece (a confirmar/contradizer nas próximas):
 ### 2. Evoluiu
 Ainda não há aula anterior neste tema para comparar.
 
-### 3. Perecível (depende do estado atual — RECONFERIR; medido na aula 01, data indefinida)
+### 3. Perecível (depende do estado atual — RECONFERIR; medido na aula 01, transcrita em 2026-08-13)
 - **Ferramentas de tracker:** UTMify (mais barata) vs RedTrack (preferência do
   Bifi). Plataforma de tracker própria em lançamento dentro da "ITW Hub" [?].
 - **Formatos "da moda":** anúncio de 10 min com história 100% IA + música IA
@@ -113,8 +113,8 @@ Ainda não há aula anterior neste tema para comparar.
 
 <!-- ===== REGISTRO POR AULA (append-only, ordem cronológica) ===== -->
 
-## Aula 01 (data indefinida) — Como escrever anúncios de DTC que escalam, mesmo sem entender de copy · Amanda e Bifi
-Fonte: transcricao/sem-data-copy+criativos-bifi+amanda-01.txt
+## Aula 01 (2026-08-13) — Como escrever anúncios de DTC que escalam, mesmo sem entender de copy · Amanda e Bifi
+Fonte: [[2026-08-13 (aula 01) - Bifi e Amanda - Copy e criativos]]
 (Timestamps no formato `[aula01 · HH:MM:SS]`. Data da gravação indefinida — arquivo copiado.)
 
 > Proporção honesta: das ~2h55 de gravação, a **primeira ~16 min** é avisos
@@ -207,7 +207,7 @@ Fonte: transcricao/sem-data-copy+criativos-bifi+amanda-01.txt
 - **Anúncio da Amanda que vendeu +R$20 milhões** [aula01 · 01:28:08]: fechava com
   autoridade humanizada ("só experimenta, você vai ficar chocada").
 
-**Números citados** (envelhecem rápido — aula 01, data indefinida)
+**Números citados** (envelhecem rápido — aula 01, transcrita em 2026-08-13)
 - Anúncio da Amanda: **+R$20 milhões** vendidos (por ela, aula 01) [aula01 · 00:45:23; 01:28:08].
 - Amanda fez **R$1 milhão** de faturamento como copy antes de aparecer ao dono do
   curso [aula01 · 01:39:00].
