@@ -23,8 +23,10 @@ tags: [digest, sintese]
   migrada como está. Tem uma nota companheira `_SINTESE-CRIATIVO.md` (princípios de
   criativo transversais).
 - **`3 - DTC`**: síntese já existe (1 aula, Bifi+Amanda, criativo pago).
-- **`1 - VSL Google`**: **9 transcrições novas da Laís ainda sem síntese** — próximo
-  trabalho pendente do Ithuel.
+- **`1 - VSL Google`**: síntese completa das 9 aulas da Laís (+Vitor nas aulas 07-08),
+  escrita em 2026-09-02 lendo as 9 transcrições na íntegra.
+- Todas as 4 Estratégias ativas (0, 1, 2, 3) têm síntese. Nenhuma passou por QA
+  (Threll) ainda — próximo estágio do pipeline, não do Ithuel.
 - Regra inviolável herdada: preservar qualquer seção `## Minhas anotações` no fim do
   arquivo, sem alterar, ao reescrever a síntese consolidada.
 
@@ -40,3 +42,4 @@ tags: [digest, sintese]
 | Episódio | Status | Conclusão (summary) |
 |---|---|---|
 | Migração inicial (2026-09-02) | resolved | 4 arquivos de síntese migrados (copy, criativos-pago, criativos-organico, organico) sem alteração de conteúdo |
+| Síntese VSL Google (2026-09-02) | resolved | 9 aulas da Laís sintetizadas do zero — Ouro, Consenso/Perecível/Estável/Divergência/Lacunas, registro por aula |

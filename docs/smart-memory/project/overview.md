@@ -40,4 +40,9 @@ Cada pasta de Estratégia (1-8, quando ativa) contém `Transcrições/`, `Resumo
 - `_Inbox/` — pasta única de drop de áudio/vídeo novo, aguardando processamento.
 - `_Projeto-Antigo/` — staging do projeto anterior do usuário (estrutura antiga: copy / criativo-orgânico / criativo-tráfego-pago / orgânico), que serve de **referência e matéria-prima** para o `edu-bibliotecario` remapear na nova taxonomia por Estratégia. Conteúdo é movido, nunca apagado, com o mapeamento registrado em `decisions/`.
 - Mecanismo de transcrição: `_Pipeline/processar.py` (Whisper via Groq) — migrado do projeto antigo, paths ajustados (`_Inbox/` → `_Pipeline/transcricao-bruta/`). Ver `_Pipeline/INSTRUCOES.md`.
-- **Migração inicial concluída em 2026-09-02** — 21 aulas processadas: 11 (Gustavo Roque, orgânico) + 1 (Bifi/Amanda, copy+criativos) migradas do projeto antigo com síntese já existente; 9 (Laís, tráfego VSL Google) transcritas nesta sessão, síntese ainda pendente. Ver [[decisions/2026-09-02-migracao-taxonomia]] e [[../../../_INDEX - Aulas|_INDEX - Aulas]].
+- **Migração inicial concluída em 2026-09-02** — 21 aulas com transcrição + resumo
+  completos: 11 (Gustavo Roque, orgânico) + 1 (Bifi/Amanda, copy+criativos) migradas
+  do projeto antigo com síntese já existente; 9 (Laís, tráfego VSL Google) transcritas
+  e sintetizadas nesta sessão. **Nenhuma passou por QA (Threll) ainda** — próximo
+  passo. Ver [[decisions/2026-09-02-migracao-taxonomia]] e
+  [[../../../_INDEX - Aulas|_INDEX - Aulas]].

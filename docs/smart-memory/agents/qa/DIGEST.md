@@ -16,12 +16,14 @@ tags: [digest, qa]
 - Nenhuma aula passou por veredicto formal do Threll ainda — squad `edu` acabou de ser
   criado (2026-09-02) e a migração do projeto antigo ainda não teve revisão de
   consistência sob a nova taxonomia.
-- **Pendente de revisão:** as 12 aulas migradas do projeto antigo (11 Gustavo Roque +
-  1 Bifi/Amanda) — conteúdo preservado como estava, mas nunca revisado sob a ótica da
-  nova estrutura (nomenclatura, links, duplicidade entre `0 - Copywriting` e
-  `3 - DTC`).
-- **Pendente de trabalho anterior:** as 9 aulas da Laís ainda não têm síntese (Ithuel)
-  — não adianta revisar antes disso.
+- **Pendente de revisão — todas as 21 aulas do projeto** têm transcrição + resumo
+  completos (12 migradas do projeto antigo + 9 da Laís, sintetizadas em 2026-09-02),
+  mas nenhuma passou por veredicto formal do Threll ainda:
+  - 12 aulas migradas: conteúdo preservado como estava, nunca revisado sob a ótica
+    da nova estrutura (nomenclatura, links, duplicidade entre `0 - Copywriting` e
+    `3 - DTC`).
+  - 9 aulas da Laís (`1 - VSL Google`): síntese nova, nunca revisada — checar
+    fidelidade às transcrições, já que foi feita numa única passada.
 
 ## Referências vivas (kind: reference)
 

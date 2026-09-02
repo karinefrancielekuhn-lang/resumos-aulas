@@ -17,9 +17,12 @@ tags: [digest, biblioteca]
   a cada aula processada.
 - `0 - Copywriting/_SINTESE-CONSOLIDADA.md` — compilado de copy, migrado da aula
   Bifi+Amanda. Só uma fonte até agora; crescerá conforme novas aulas alimentarem copy.
-- `Guias/` tem 2 guias migrados (GUIA-CELULAR-ZERO, GUIA_OPERACIONAL_VENDAS_ORGANICAS).
-- `Materiais/` (dentro de cada Estratégia) ainda vazias — aguardando o usuário colar
-  materiais das aulas.
+- `Guias/` tem 2 guias migrados (GUIA-CELULAR-ZERO, GUIA_OPERACIONAL_VENDAS_ORGANICAS)
+  + 1 guia próprio (`Como editar as sínteses sem perder trabalho`).
+- `0 - Copywriting/Materiais/` tem 11 arquivos (research/swipe de copy, vindos do
+  push do Dell em 2026-09-02). Demais `Materiais/` (1, 2, 3) ainda vazias.
+- Todas as 4 Estratégias ativas (0, 1, 2, 3) têm síntese completa — ver
+  `_INDEX - Aulas.md` para status por aula (Transcrição/Resumo).
 - **Migração pendente:** `_Projeto-Antigo/` ainda existe como staging/backup — todo
   conteúdo relevante já foi movido, mas a pasta não foi apagada (ver decisions/).
 
