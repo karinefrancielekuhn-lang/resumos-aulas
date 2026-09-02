@@ -13,14 +13,16 @@ tags: [modules]
 
 | Módulo | Conteúdo | Owner (agente) |
 |---|---|---|
-| `0 - Copywriting/` | Compilado cross-tema, não recebe transcrição própria | edu-bibliotecario |
+| `0 - Copywriting/` | Compilado cross-tema (`_SINTESE-CONSOLIDADA.md`) + `Materiais/` (research/swipe de copy) | edu-bibliotecario |
 | `1 - VSL Google/` | Transcrições/, Resumos/, Materiais/ | edu-transcritor, edu-sintetizador |
 | `2 - Organico Insta/` | Transcrições/, Resumos/, Materiais/ | edu-transcritor, edu-sintetizador |
 | `3 - DTC/` | Transcrições/, Resumos/, Materiais/ (Google Ads + Meta Ads) | edu-transcritor, edu-sintetizador |
 | `4-8` (placeholders) | Sem conteúdo ainda — criar `Transcrições/Resumos/Materiais/` quando a primeira aula chegar | — |
-| `_Inbox/` | Drop zone única de áudio/vídeo bruto | edu-transcritor |
-| `_Projeto-Antigo/` | Staging do projeto anterior — referência/matéria-prima para remapeamento | edu-bibliotecario |
+| `_Inbox/` | Drop zone única de áudio/vídeo bruto (Mac) | edu-transcritor |
+| `Notas/` | Conteúdo derivado sob pedido (Q&A cruzando Estratégias, checklists) — adicionado no Dell via `/sync-material` | edu-mentor |
+| `_Projeto-Antigo/` | Staging do projeto anterior — referência/backup local (gitignored) | edu-bibliotecario |
 | `Guias/` | Guias de referência, não ligados a uma aula específica | edu-bibliotecario |
+| `_Pipeline/` | Motor de transcrição (Whisper/Groq) + comandos/hooks de sincronização Mac↔Dell | — |
 
 ## God Nodes
 

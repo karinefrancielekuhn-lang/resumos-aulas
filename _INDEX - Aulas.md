@@ -68,6 +68,10 @@ Fonte: [[_SINTESE-CONSOLIDADA (0 - Copywriting)|_SINTESE-CONSOLIDADA]] — deriv
 Bifi+Amanda (`3 - DTC`). Compilação cross-estratégia mantida pela Sorae; toda aula que
 gerar conteúdo de copy relevante entra aqui também.
 
+**Materiais** (`0 - Copywriting/Materiais/`, adicionados no Dell em 2026-09-02):
+Bíblia dos Hooks (en/pt), Manual bater controle - DTC, Nível 03 de modelagem, mapa
+mental amanda, pesquisa VSL/dados/erros/mercado/organico/publico, proof elements.
+
 ## 4-8 (placeholders)
 
 Sem conteúdo ainda.
@@ -78,10 +82,18 @@ Sem conteúdo ainda.
   Orgânico Insta)
 - GUIA_OPERACIONAL_VENDAS_ORGANICAS.pdf — guia operacional de vendas orgânicas (autoria de
   colega da comunidade)
+- [[Como editar as sínteses sem perder trabalho]] — regra do `## Minhas anotações`
+
+## Notas (Nyra)
+
+`Notas/` — conteúdo derivado sob pedido (Q&A cruzando Estratégias, checklists,
+comparativos), mantido pela **Nyra** (edu-mentor). Vazio por enquanto — índice em
+`Notas/_indice.md`.
 
 ## Pipeline
 
-- `_Inbox/` — vazia. Coloque aqui o próximo áudio/vídeo de aula.
+- `_Inbox/` — vazia. Coloque aqui o próximo áudio/vídeo de aula (Mac).
+- `/sync-material` — comando para subir `Materiais/`+`Notas/` do Dell num passo só.
 - `_Pipeline/` — motor de transcrição (Whisper via Groq). Ver `_Pipeline/INSTRUCOES.md`.
 - `_Projeto-Antigo/` — staging do projeto anterior, mantido como arquivo/backup. Todo o
   conteúdo relevante já foi migrado para a estrutura acima; pode ser removido quando você

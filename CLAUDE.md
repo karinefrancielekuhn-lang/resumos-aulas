@@ -9,7 +9,7 @@ Base de conhecimento pessoal de aulas — transcrição, síntese temática e co
 ## Taxonomia — por Estratégia (não por tema)
 
 ```
-0 - Copywriting/        ← compilado cross-tema de copy (mantido por Sorae)
+0 - Copywriting/        ← compilado cross-tema de copy (mantido por Sorae) · Materiais/
 1 - VSL Google/         ← Transcrições/ · Resumos/ · Materiais/
 2 - Organico Insta/     ← Transcrições/ · Resumos/ · Materiais/
 3 - DTC/                ← Google Ads + Meta Ads · Transcrições/ · Resumos/ · Materiais/
@@ -21,9 +21,10 @@ Base de conhecimento pessoal de aulas — transcrição, síntese temática e co
 _Inbox/                 ← drop zone única para áudio/vídeo novo (esvazia ao ser processada)
 _Pipeline/              ← motor de transcrição (Whisper via Groq) — ver _Pipeline/INSTRUCOES.md
 Guias/                  ← guias de referência, não ligados a uma aula específica
+Notas/                  ← conteúdo derivado sob pedido (Q&A cruzando Estratégias) — Nyra
 ```
 
-## Pipeline (4 agentes, squad `edu`)
+## Pipeline (5 agentes, squad `edu`)
 
 1. **Coloque** o áudio/vídeo em `_Inbox/`.
 2. **Transcreva:** `_Pipeline/.venv/bin/python _Pipeline/processar.py` (Whisper/Groq) → staging em `_Pipeline/transcricao-bruta/`.
@@ -31,6 +32,14 @@ Guias/                  ← guias de referência, não ligados a uma aula espec�
 4. **Sintetize** (Ithuel): gera/atualiza `{Estratégia}/Resumos/_SINTESE-CONSOLIDADA.md` (duas camadas: síntese consolidada + registro por aula append-only).
 5. **Compile e organize** (Sorae): copy cross-tema → `0 - Copywriting/`; mantém `_INDEX - Aulas.md` e a taxonomia de pastas.
 6. **Revise** (Threll): veredicto PASS/CONCERNS/FAIL antes de marcar a aula como concluída.
+7. **Pergunte** (Nyra): a qualquer momento, Q&A sobre o acervo inteiro ou pedido de síntese derivada em `Notas/`.
+
+## Mac ↔ Dell (dois computadores, um repositório)
+
+- **Mac:** roda `_Pipeline/processar.py` + squad `edu` (Kaelis/Ithuel/Sorae/Threll) — fonte de `Transcrições/` e `Resumos/`. Dá push manualmente.
+- **Dell:** adiciona material extra em `{Estratégia}/Materiais/` e pede notas à Nyra em `Notas/`. Depois de adicionar, rode `/sync-material` (add + commit + push num passo só, só dessas duas áreas).
+- Um hook `SessionStart` (`.claude/hooks/git-pull-auto.sh`) puxa `git pull --ff-only` sozinho a cada sessão, só quando a working tree está limpa — nunca sobrescreve trabalho local pendente.
+- Regra de ouro: `git pull` antes de mexer em qualquer arquivo, commit + push logo depois de terminar — não deixar mudança pendurada nos dois lados.
 
 ---
 
@@ -58,6 +67,7 @@ Este projeto mantém base de conhecimento em `docs/smart-memory/` (formato Obsid
 | **edu-sintetizador** | Ithuel | Resumos inteligentes por tema (síntese consolidada + registro por aula) | Fonte de verdade sobre "o que a aula ensina" |
 | **edu-bibliotecario** | Sorae | Compila copy cross-tema (`0 - Copywriting`), mantém `_INDEX - Aulas.md` e a taxonomia de pastas | Exclusiva sobre a estrutura de pastas |
 | **edu-qa** | Threll | Veredicto PASS/CONCERNS/FAIL antes de "pronto" | Exclusiva sobre veredicto de qualidade |
+| **edu-mentor** | Nyra | Q&A sobre o acervo inteiro, notas derivadas em `Notas/` | Única que escreve em `Notas/`; nunca escreve em Transcrições/Resumos |
 
 Comunicação é peer-to-peer via `SendMessage`, pelo nome do agente. **Nenhum agente spawna outros agentes** — nested teams são proibidos por spec.
 

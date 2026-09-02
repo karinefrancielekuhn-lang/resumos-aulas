@@ -9,7 +9,7 @@ tags: [index, smart-memory]
 
 # Smart-Memory — Resumos-Aulas-Gold
 
-> Squad customizado `edu` (Kaelis, Ithuel, Sorae, Threll). Ver também
+> Squad customizado `edu` (Kaelis, Ithuel, Sorae, Threll, Nyra). Ver também
 > [[../../_INDEX - Aulas|_INDEX - Aulas]] na raiz do projeto — índice de aulas voltado ao usuário.
 
 ## Projeto
@@ -29,4 +29,4 @@ tags: [index, smart-memory]
 - [[stories/BACKLOG]] — Backlog master
 
 ## Saídas por agente
-- [[agents/transcricao/DIGEST|transcricao (Kaelis)]] · [[agents/sintese/DIGEST|sintese (Ithuel)]] · [[agents/biblioteca/DIGEST|biblioteca (Sorae)]] · [[agents/qa/DIGEST|qa (Threll)]]
+- [[agents/transcricao/DIGEST|transcricao (Kaelis)]] · [[agents/sintese/DIGEST|sintese (Ithuel)]] · [[agents/biblioteca/DIGEST|biblioteca (Sorae)]] · [[agents/qa/DIGEST|qa (Threll)]] · [[agents/notas/DIGEST|notas (Nyra)]]

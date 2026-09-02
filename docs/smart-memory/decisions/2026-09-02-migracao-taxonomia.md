@@ -50,5 +50,29 @@ em 2026-09-02, para que ninguém precise adivinhar "onde foi parar X".
   até o usuário confirmar e decidir remover.
 - **Git:** o repositório da raiz agora carrega o histórico e o remote
   (`github.com/karinefrancielekuhn-lang/resumos-aulas`) do projeto antigo, por decisão
-  explícita do usuário ("reaproveitar o repo antigo"). Nenhum commit da migração foi
-  criado ainda nem houve push — ver próximo passo no relatório da sessão.
+  explícita do usuário ("reaproveitar o repo antigo").
+
+## Reconciliação com o push do Dell (mesmo dia, 2026-09-02)
+
+Entre o commit de migração e o push, a esposa do usuário deu `git push` no Dell dela,
+que ainda estava no projeto antigo — trouxe 3 commits com trabalho independente e
+valioso: `material-fornecido/copy/*` (11 PDFs/imagens de research/swipe de copy),
+`notas/` (pasta para conteúdo derivado sob pedido) e um agente ad-hoc `mentoria-guia`
++ comando `/sync-material` + hook `git-pull-auto.sh` (auto-pull no `SessionStart`) —
+aparentemente construídos numa sessão anterior do team-os-creator sobre o mesmo
+projeto, já seguindo o Native Teams Protocol.
+
+Reconciliação feita via `git merge --no-commit --no-ff origin/main` + resolução manual:
+
+| Origem (push do Dell) | Destino (taxonomia nova) | Motivo |
+|---|---|---|
+| `material-fornecido/copy/*.pdf`, `*.png` (11 arquivos) | `0 - Copywriting/Materiais/` | Material de copy, mesma lógica do mapeamento tema→Estratégia acima |
+| `notas/_indice.md` | `Notas/_indice.md` | Pasta renomeada, mesmo conceito (conteúdo derivado, não gerado pelo pipeline) |
+| `.claude/agents/mentoria-guia.md` | Promovido a agente oficial do squad `edu` no CT: `edu-mentor` (persona **Nyra**, Oráculo do Acervo) | Já seguia o Native Teams Protocol quase integralmente — só precisava apontar para a nova taxonomia (`*/Resumos/`, `*/Transcrições/`, `*/Materiais/` em vez de `resumo/`, `transcricao/`, `material-fornecido/`) |
+| `.claude/commands/sync-material.md` | Mantido em `.claude/commands/sync-material.md`, paths adaptados para `*/Materiais/` + `Notas/` | Comando local do projeto, fora do escopo de propagação do CT |
+| `.claude/hooks/git-pull-auto.sh` + registro em `.claude/settings.json` | Mantidos como estão — taxonomia-agnóstico | Útil para qualquer estrutura de pastas |
+| `INSTRUCOES.md` (raiz, editado pelo Dell) | Conteúdo novo (seções sobre `mentoria-guia`/`git-pull-auto`/divisão Mac×Dell) incorporado em `_Pipeline/INSTRUCOES.md`, adaptado à nova taxonomia; arquivo da raiz permanece deletado (conflito modify/delete resolvido a favor da migração) | Evitar duas fontes de instrução divergentes |
+
+**Fluxo Mac↔Dell daqui em diante:** Mac roda o pipeline de transcrição/síntese e dá
+push; Dell adiciona `Materiais/` e pede notas à Nyra, sobe com `/sync-material`. Ver
+`CLAUDE.md` (raiz) seção "Mac ↔ Dell".

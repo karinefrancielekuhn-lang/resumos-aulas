@@ -9,7 +9,7 @@ tags: [project]
 
 # Visão Geral — Resumos-Aulas-Gold
 
-**Domínio / propósito:** Base de conhecimento pessoal de aulas. A partir de áudio/vídeo de aulas, o projeto organiza a transcrição, produz resumos inteligentes por tema e compila o conteúdo de copywriting de todas as estratégias num único lugar. Serve três públicos: (1) base de conhecimento para outros projetos, (2) repositório versionado em git para acesso da equipe (ex.: Dell), (3) estudo individual via Obsidian.
+**Domínio / propósito:** Base de conhecimento pessoal de aulas. A partir de áudio/vídeo de aulas, o projeto organiza a transcrição, produz resumos inteligentes por tema e compila o conteúdo de copywriting de todas as estratégias num único lugar. Serve três públicos: (1) base de conhecimento para outros projetos, (2) repositório versionado em git compartilhado entre Mac e Dell (uso do usuário e da esposa), (3) estudo individual via Obsidian.
 
 **Tipo:** Vault de conhecimento (não é um software tradicional) — squad customizado `edu` (ver [[../../../CLAUDE.md|CLAUDE.md]]).
 
@@ -33,7 +33,10 @@ Cada pasta de Estratégia (1-8, quando ativa) contém `Transcrições/`, `Resumo
 
 ## Estado atual
 
-- Estrutura de pastas criada (2026-09-02), squad `edu` (4 agentes) instalado.
+- Estrutura de pastas criada (2026-09-02), squad `edu` (5 agentes) instalado.
+- **Reconciliado com o push do Dell** (mesmo dia): materiais de copy (11 arquivos) e a
+  pasta `Notas/` incorporados; agente ad-hoc `mentoria-guia` promovido a `edu-mentor`
+  (Nyra) no CT. Ver [[decisions/2026-09-02-migracao-taxonomia]].
 - `_Inbox/` — pasta única de drop de áudio/vídeo novo, aguardando processamento.
 - `_Projeto-Antigo/` — staging do projeto anterior do usuário (estrutura antiga: copy / criativo-orgânico / criativo-tráfego-pago / orgânico), que serve de **referência e matéria-prima** para o `edu-bibliotecario` remapear na nova taxonomia por Estratégia. Conteúdo é movido, nunca apagado, com o mapeamento registrado em `decisions/`.
 - Mecanismo de transcrição: `_Pipeline/processar.py` (Whisper via Groq) — migrado do projeto antigo, paths ajustados (`_Inbox/` → `_Pipeline/transcricao-bruta/`). Ver `_Pipeline/INSTRUCOES.md`.
