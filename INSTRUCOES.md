@@ -73,6 +73,50 @@ Quando aparecer um **professor novo**, acrescente o nome na seção
 `[PROFESSORES]` de `glossario.txt`. Termos técnicos novos que o Whisper erre
 podem ser somados nas linhas de `[VOCABULARIO]`.
 
+## 4. Pergunte sobre o conteúdo (agente `mentoria-guia`)
+
+Este projeto tem um agente do Claude Code Agent Teams — `mentoria-guia` — que lê
+todo o acervo (`resumo/`, `transcricao/`, `material-fornecido/`, `glossario.txt`)
+para responder perguntas cruzando temas e professores, e criar material derivado
+quando fizer sentido (guias de estudo, checklists, comparativos).
+
+- Perguntas de conteúdo → ele lê e responde citando tema/aula de origem.
+- Pedidos de material novo (ex.: "monte um checklist de lançamento cruzando copy
+  e métricas") → ele escreve em **`notas/`** — pasta separada de `resumo/` e
+  `transcricao/`, que continuam território exclusivo do pipeline `processar.py`/
+  `/resumir`. Isso evita conflito entre o que o agente cria e o que o `/resumir`
+  reescreve na próxima aula processada.
+- Ative com Agent Teams (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` já fica ligado
+  via `.claude/settings.json`) ou peça um subagente com esse papel numa sessão
+  normal do Claude Code.
+
+## Sincronização com o GitHub (automática + manual)
+
+- **Automática:** um hook `SessionStart` (`.claude/hooks/git-pull-auto.sh`) roda
+  `git pull --ff-only` sozinho ao abrir/retomar uma sessão do Claude Code neste
+  projeto — só quando a working tree está limpa. Se houver mudanças locais não
+  commitadas, ele **pula o pull** e avisa, pra nunca sobrescrever nada.
+- **Manual:** continua funcionando normalmente, a qualquer momento:
+  ```bash
+  git pull
+  ```
+- O agente `mentoria-guia` nunca dá `git push` (bloqueado por hook) — quem sobe
+  pro GitHub é você, manualmente, ou o commit automático do `/resumir`.
+
+### Divisão entre computadores (Mac x Dell)
+
+- **Mac:** fonte da estrutura de resumos — roda `processar.py` + `/resumir`,
+  edita `resumo/` e `transcricao/`, e dá push.
+- **Dell (este PC):** adiciona material extra das aulas manualmente em
+  `material-fornecido/` e material derivado em `notas/`.
+- Regra pra nunca dar conflito: **`git pull` antes de mexer em qualquer
+  arquivo**, e commit + push logo depois de terminar — não deixar mudança
+  pendurada por dias dos dois lados. O hook `git-pull-auto.sh` avisa disso a
+  cada sessão.
+- Arquivos/pastas diferentes nunca conflitam entre si. Só editar o *mesmo*
+  arquivo nos dois computadores sem sincronizar entre uma edição e outra dá
+  problema — evite isso.
+
 ## Configuração inicial (só uma vez)
 
 - Ambiente: `python3 -m venv .venv && .venv/bin/pip install groq`
