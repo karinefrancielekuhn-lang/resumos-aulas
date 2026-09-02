@@ -1,7 +1,19 @@
-.env
-.venv/
-.trabalho/
-audio/*
+# pipeline de transcrição
+_Pipeline/.env
+_Pipeline/.venv/
+_Pipeline/.trabalho/
+_Pipeline/transcricao-bruta/*
+!_Pipeline/transcricao-bruta/.gitkeep
+
+# áudio/vídeo bruto (pesado — não versionar)
+_Inbox/*
+!_Inbox/.gitkeep
+_Pipeline/audio-processado/*
+!_Pipeline/audio-processado/.gitkeep
+
+# staging do projeto anterior — contém um .git próprio (repo aninhado); mantido
+# localmente como backup/referência da migração, nunca versionado aqui
+_Projeto-Antigo/
 
 # ruído do sistema / ferramentas
 .DS_Store

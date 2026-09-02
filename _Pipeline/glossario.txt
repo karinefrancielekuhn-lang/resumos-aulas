@@ -1,0 +1,62 @@
+# GLOSSÁRIO — Marketing digital de resposta direta
+#
+# Este arquivo é lido por processar.py para montar a "dica" (campo prompt) que
+# vai ao Whisper. O prompt da API aceita só ~224 tokens; por isso o script NÃO
+# manda o arquivo inteiro: ele prioriza os nomes próprios (professores) e os
+# termos mais propensos a erro, usa o NOME DO ARQUIVO de áudio como sinal de
+# tema para escolher quais entram, e corta o resto quando estoura o orçamento.
+#
+# SINTAXE (não precisa decorar — só seguir o padrão ao editar):
+#   - Linhas começando com # são comentários e são ignoradas.
+#   - [SECAO] abre uma seção.
+#   - Em [VOCABULARIO], cada linha é:  temas => termo, termo, termo
+#       temas = palavras-chave (separadas por espaço). Se alguma aparecer no
+#               nome do arquivo de áudio, a linha ganha prioridade.
+#               Use  *  para "sempre relevante" (siglas e termos universais).
+#   - Em [PROFESSORES], um nome por linha. Nomes próprios entram SEMPRE primeiro,
+#       porque são o que o Whisper mais erra e o que mais contamina o resumo.
+#
+# Ordem de prioridade que o script aplica ao preencher o orçamento de tokens:
+#   1) professores  ->  2) linhas cujo tema bate com o nome do arquivo
+#   ->  3) linhas marcadas com *  ->  4) o restante, até o limite.
+
+[VOCABULARIO]
+
+# --- Métricas e siglas (universais: alto risco, sempre entram) ---
+* => ROI, ROAS, CPA, CPL, CPM, CPC, CTR, CPV, LTV, AOV, ticket médio, taxa de conversão, frequência, alcance, impressões, cliques
+
+# --- Plataformas e ferramentas (universais) ---
+* => Meta Ads, Facebook Ads, Instagram Ads, Gerenciador de Anúncios, Pixel, Conversions API, CAPI, Business Manager, Google Ads, GA4, Google Analytics, Tag Manager
+
+# --- Estrutura de campanha e gestão de tráfego ---
+trafego ads facebook google meta campanha escala => campanha, conjunto de anúncios, ad set, criativo, público frio, público morno, público quente, lookalike, retargeting, remarketing, escala, escalar, otimização, orçamento, CBO, ABO, teste A/B, aprendizado limitado, learning phase, verba, dark post
+
+# --- Copy, oferta e funil ---
+copy oferta funil vsl lancamento => headline, lead, big idea, VSL, funil, isca digital, upsell, downsell, order bump, checkout, landing page, página de vendas, gatilho mental, prova social, objeção, promessa, storytelling, hook, CTA, call to action, dor, avatar, persona, copywriting, copywriter, oferta irresistível, quebra de objeção
+
+# --- Criativo e modelagem (tema desta primeira aula) ---
+copy criativo modelagem creative => modelagem de criativo, criativo vencedor, winner, ângulo, angle, formato, estático, carrossel, reels, UGC, thumbnail, roteiro, script, swipe, biblioteca de anúncios, ads library, espionagem, benchmark
+
+# --- Afiliação e plataformas de produto ---
+afiliado produtor afiliacao lancamento => produtor, afiliado, comissão, plataforma, Hotmart, Kiwify, Braip, Eduzz, Monetizze, coproducao, checkout, área de membros
+
+# --- Anglicismos e termos falados em inglês no meio do português (fáceis de errar) ---
+* => marketing, tráfego pago, engajamento, conversão, awareness, lead, funnel, pipeline, dashboard, insight, briefing, deadline, spend, budget
+
+# --- Tráfego orgânico: plataformas, algoritmo e crescimento (tema do Gustavo Roque) ---
+organico instagram tiktok facebook reels => tráfego orgânico, orgânico, reels, feed, stories, bio, perfil, algoritmo, engajamento, alcance orgânico, alcance, crescimento orgânico, CTA orgânico, viral, viralizar, hashtag, nicho, conteúdo, postagem, frequência de postagem
+
+# --- Tráfego orgânico: conta, dispositivo e contingência (alto risco de erro) ---
+organico instagram tiktok facebook => aquecimento de conta, aquecimento, proxy, dispositivo físico, dispositivo virtual, emulador, chip, número virtual, IP, contingência, isolamento, red flag, yellow flag, banimento, instaban, shadowban, fanpage, página de Facebook, perfil forte, credibilidade
+
+# --- Tráfego orgânico: produção de conteúdo, avatar e IA ---
+organico criativo avatar => avatar, ativo criativo, modelagem, modelagem de conteúdo, storyboard, benchmark, cenário, roteiro, prompt, frame
+
+# --- Tráfego orgânico: ferramentas e fornecedores citados (nomes próprios, fáceis de errar) ---
+organico ferramentas => Callowdata, VMOS, Duoplus, Redfinger, Cloud Emulador, Glark, ElevenLabs, Macy's, Gmail, Outlook, Google Chrome, skill, cloud
+
+[PROFESSORES]
+Bifi
+Amanda
+Gustavo Roque
+Laís
